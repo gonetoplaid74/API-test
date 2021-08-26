@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0202">
+    <steps>
+        
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="jFR-2S-9KA">Review</title>
+                </block>
+                <block type="text">
+                    <text id="ziK-Pa-j4h">So far, you made a <cv>Level</cv> that contains all of your game elements: <b>balls</b>, <b>bricks</b>, <b>paddles</b>, and the <b>game rules</b>.</text>
+                </block>
+                <block type = "image" source="Page1Step2">
+                    <description id="kJp-ni-Awm">Diagram showing a level that contains a ball, bricks, a paddle, and game rules.</description>
+                </block>
+                <block type="text">
+                    <text id="Rcg-KZ-ykx">You then initialized a <cv>Level</cv> by giving it a layout, and ran the level by calling <cv>run</cv>.</text>
+                </block>
+                <block type="text">
+                    <text id="NeA-Vw-G6K">Next, you’ll add a completion handler so you can progress from one level to the next, giving you the ability to create a multilevel game.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="J28-44-bAQ">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        <step type="code" name="completionHandler">
+            <assessment type="programmatic" badge="true" name="completionHandler"/>
+            <blocks>
+                <block type="title" subtype="badge">
+                    <title id="dNj-BW-29E">Add a Completion Handler</title>
+                    <text id="WFa-a9-53B">To transition between levels, you need to know when you complete the current level.</text>
+                </block>
+                <block type="text">
+                    <text id="WFa-asdfkjsdeeeqqqaB">This is the job of a completion <a href="glossary://event%20handler">handler</a>, a bit of code that runs when you complete a level.</text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="CAh-sq-ZhP">Add a completion handler at the top of <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+                </block>
+                <block type="text">
+                    <text id="Drf-XZ-3pZ"><code><cmt id="ooo-iF-ssZ">// Completion handler.</cmt></code></text>
+                </block>
+               <block type="code">
+                   <key>public var</key> onCompletion : (() -> <type>Void</type>) = {}
+               </block>
+               <block type="text">
+                   <text id="FEs-Lw-XgS">Then call your <cv>onCompletion</cv> handler at the end of <cv>winLevel</cv> so it runs when you win a level.</text>
+               </block>
+               <block type="code">onCompletion()</block>
+               <block type="carrot" subtype="tryit"/>
+               <block type="text">
+                   <text id="Nlo3-4z-JL12">Press Run My Code to check that your code runs.</text>
+               </block>
+            </blocks>
+        </step>
+        
+        <message name="completionHandler-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="tKW-HE-R3i">First add a global variable, <cv>onCompletion</cv>, to the top of <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+                </block>
+                <block type="code">
+                    <key>public var</key> onCompletion : (() -> <type>Void</type>) = {}
+                </block>
+                <block type="text">
+                    <text id="wxn-K3-s3S">This variable stores a function, which you’ll call after the level completes.</text>
+                </block>
+            </blocks>
+        </message>
+        
+        <message name="completionHandler-hint2" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="yUn-ys-2rp">Once you’ve added your <cv>onCompletion</cv> variable, call <cv>onCompletion</cv> at the end of the <cv>winLevel</cv> function.</text>
+                </block>
+                <block type="code">onCompletion()</block>
+            </blocks>
+        </message>
+        
+        
+        <message name="completionHandler-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="8bT-uD-ZNS"><b>Good start!</b></text>
+                </block>
+               <block type="text">
+                  <text id="Ez2-gF-yaw">Donʼt worry if the scene is blank. Nothing will show up until the next step, where youʼll use the <b>Game</b> type to create a multilevel game.</text>
+              </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@nextStep" symbol="arrow.right.circle.fill">
+                       <text id="xKi-Xi-KK9">Next</text>
+                   </button>
+               </block>
+            </blocks>
+        </message>
+        
+        
+        
+        <step type="context" name="multilevel">
+            <blocks>
+                <assessment type="programmatic" name="multilevel"/>
+                <block type="title">
+                    <title id="WK4-KD-qfx">Creating a Multilevel Game</title>
+                    <text id="Iug-jL-FQh">You can now link together multiple levels using the <b>Game</b> type 🥳.</text>
+                </block>
+              <block type="text">
+                  <text id="asdfasdfasdeeewq-jL-FQh">Similar to how a <b>level</b> organizes your game elements, a <b>game</b> organizes a sequence of levels.</text>
+              </block>
+              <block type = "image" source="Page6Step3" height="0.75">
+                  <description id="HS1-Sz-JUZ">Shows the organization of levels within a game.</description>
+              </block>
+              <block type="carrot" subtype="code"/>
+              <block type="text">
+                    <text id="Fgr-z9-NWe">Add this code to the bottom of your <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+                <block type="text">
+                    <code><cmt id="Fgr-z9-jdfdjf">// Create a game.</cmt></code>
+                </block>
+               <block type="code">
+                   <key>let</key> game = Game(levels: [level1, level2])
+                    game.run()
+               </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="9tu-pi-w2x">Run your code and play your multilevel game!</text>
+                </block>
+            </blocks>
+        </step>
+        
+        <message name="multilevel-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="zjY-eT-11V">Add this code to the bottom of your <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+                <block type="code">
+                    <key>let</key> game = Game(levels: [level1, level2])
+                     game.run()
+                </block>
+            </blocks>
+        </message>
+        
+        <message name="multilevel-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="VGQ-RJ-hcR"><b>Nice!</b></text>
+                </block>
+                <block type="text">
+                    <text id="Hy1-NU-87S">Did you notice that you now call <cv>game.run()</cv> instead of <cv>level.run()</cv>?</text>
+                </block>
+               <block type="text">
+                   <text id="J4J-VM-8rM">Next, check your understanding of the <cv>Game</cv> type.</text>
+               </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@nextStep" symbol="arrow.right.circle.fill">
+                       <text id="eJ7-Z3-qHf">Next</text>
+                   </button>
+               </block>
+            </blocks>
+        </message>
+        
+        
+        <step type="check">
+           <blocks>
+               <assessment type="response" badge="true"/>
+               <block type="title" subtype="badge">
+                   <title id="wcm-iG-28j">Check Yourself</title>
+                   <text id="sdflksdf2-i-A7jb22a">What does the <b>Game</b> type do?</text>
+               </block>
+            <block type="response" subtype="single-choice" name="GameType" confirm="true">
+                   <prompt id="4pB-pU-D5r">Look through <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Game.swift"><icon name="module"/> Game</a> to discover more about what the <b>Game</b> type does, and then select the best description below.</prompt>
+                   <option>
+                       <text id="K1s-4E-nrc">The Game type creates an array of levels and runs those levels one after the next.</text>
+                       <feedback id="Srk-te-YiR">True, but there’s more! Keep reading through the class to find out what else it can do.</feedback>
+                   </option>
+                   <option>
+                       <text id="Rra-aY-vLn">The Game type creates lots of variables for game elements, such as the ball and paddle, that are customizable when you run each level.</text>
+                       <feedback id="RfP-GG-AKi">Are you sure you’re reading the right class?</feedback>
+                   </option>
+                   <option type="correct">
+                       <text id="9SJ-IQ-8BW">The Game type runs multiple levels sequentially using the <cv>Levels</cv> array. It also has functions to present a label between levels, and to play the win animation if you complete all of the levels.</text>
+                       <feedback id="V4I-ps-ExY">Correct! Reading code and making sense of what is there is a great skill. Good work!
+                       
+                       <a href="@nextStep">Next</a>, customize each level.</feedback>
+                   </option>
+            </block>
+               
+           </blocks>
+       </step>
+           
+           <step type="Experiment" name="levelExperiments">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="levelExperiments"/>
+                <block type="title" subtype="badge">
+                    <title id="Yse-Aa-7MC">🧑‍🔬 Customize Each Level</title>
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                 <block type="text">
+                    <text id="Lrn-cC-Kmb">Edit the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file to customize each level in your game.</text>
+                </block>
+                 <block type="text">
+                     <text id="afd-w2-8eq"><b>Tip:</b> Write your code <i>above</i> <cv>game.run</cv>.</text>
+                 </block>
+               <groupblock subtype="task" name="levelBallImage" disclosed="false">
+                    <title id="zuj-Jk-qEy">Ball Image</title>
+                    <image source="ball-image" backgroundcolor="#FFE78F"/>
+                   <block type="code">
+                        level1.ballImage = <literal>#imageLiteral(resourceName: "bumper1@2x.png")</literal>
+                   </block>
+                   
+               </groupblock>
+               <groupblock subtype="task" name="levelPaddleImage" disclosed="false">
+                    <title id="sIR-9t-T3m">Paddle Image</title>
+                    <image source="paddle-image" backgroundcolor="#FFD396"/>
+                   <block type="code">
+                        level1.paddleImage = <literal>#imageLiteral(resourceName: "Paddle_2@2x.png")</literal>
+                   </block>
+               </groupblock>
+               <groupblock subtype="task" name="levelPaddleWidth" disclosed="false">
+                    <title id="6Gc-7J-Wki">Paddle Width</title>
+                    <image source="paddle-width" backgroundcolor="#F9C9F3"/>
+                   <block type="code">
+                        level1.paddle.xScale = <num>2.5</num>
+                   </block>
+               </groupblock>
+                <groupblock subtype="task" name="levelDifficulty" disclosed="false">
+                    <title id="VZ3-RS-MdT">Difficulty</title>
+                    <image source="difficulty" backgroundcolor="#FCE8CB"/>
+                   <block type="code">
+                        level2.difficulty = <num>7</num>
+                   </block>
+               </groupblock>
+               <groupblock subtype="task" name="levelLayout" disclosed="false">
+                    <title id="2h7-2T-YRW">Layout</title>
+                    <image source="layout" backgroundcolor="#AFE4F2"/>
+                   <block type="text">
+                       <text id="4zB-4J-3kb">Edit the layouts in your <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                   </block>
+                   <block type="code">
+                        Layout.color(<literal>#colorLiteral(red: 0.807843137254902, green: 0.027450980392156862, blue: 0.3333333333333333, alpha: 1.0)</literal>)
+                   </block>
+                   <block type="code">
+                        Layout.color(<literal>#colorLiteral(red: 0.5843137254901961, green: 0.8235294117647058, blue: 0.4196078431372549, alpha: 1.0)</literal>, rows: <num>2</num>, columns: <num>2</num>)
+                   </block>
+                    <block type="code">
+                        let layout = [
+    [<literal>#colorLiteral(red: 0.9098039215686274, green: 0.47843137254901963, blue: 0.6431372549019608, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9764705882352941, green: 0.8509803921568627, blue: 0.5490196078431373, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.4745098039215686, green: 0.8392156862745098, blue: 0.9764705882352941, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9568627450980393, green: 0.6588235294117647, blue: 0.5450980392156862, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal>],
+    [<literal>#colorLiteral(red: 0.9098039215686274, green: 0.47843137254901963, blue: 0.6431372549019608, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.0)</literal>, <literal>#colorLiteral(red: 0.9254901960784314, green: 0.23529411764705882, blue: 0.10196078431372549, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.0)</literal>, <literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal>],
+    [<literal>#colorLiteral(red: 0.9098039215686274, green: 0.47843137254901963, blue: 0.6431372549019608, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.0)</literal>, <literal>#colorLiteral(red: 0.9254901960784314, green: 0.23529411764705882, blue: 0.10196078431372549, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.0)</literal>, <literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal>],
+    [<literal>#colorLiteral(red: 0.9098039215686274, green: 0.47843137254901963, blue: 0.6431372549019608, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9764705882352941, green: 0.8509803921568627, blue: 0.5490196078431373, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.4745098039215686, green: 0.8392156862745098, blue: 0.9764705882352941, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9568627450980393, green: 0.6588235294117647, blue: 0.5450980392156862, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal>]
+]
+
+<key>let</key> colorArrayLayout = Layout(colors: layout)
+                   </block>
+                   
+                   <block type="code">
+                        Layout.random(colors:  [<literal>#colorLiteral(red: 0.10196078431372549, green: 0.2784313725490196, blue: 0.4, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.23921568627450981, green: 0.6745098039215687, blue: 0.9686274509803922, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.36470588235294116, green: 0.06666666666666667, blue: 0.9686274509803922, alpha: 1.0)</literal>])
+                   </block>
+                   <block type="code">
+                        Layout.random(colors: [<literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9098039215686274, green: 0.47843137254901963, blue: 0.6431372549019608, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.23921568627450981, green: 0.6745098039215687, blue: 0.9686274509803922, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9764705882352941, green: 0.8509803921568627, blue: 0.5490196078431373, alpha: 1.0)</literal>], rows: <num>4</num>, columns: <num>8</num>)
+                   </block>
+               </groupblock>
+            </blocks>
+        </step>
+        
+        <message name="levelExperiments-hint" sender="hopper">
+               <blocks>
+                   <block type="text">
+                       <text id="1CR-xX-9zi">One of the new things you can add to each level is how difficult it is. Write your code in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                   </block>
+                   <block type="code">
+                        level2.difficulty = <num>7</num>
+                   </block>
+               </blocks>
+           </message>
+           <message name="levelExperiments-success" sender="byte">
+               <blocks>
+                   <block type="text">
+                       <text id="wnz-kJ-ppw"><b>They’re all so unique!</b></text>
+                   </block>
+                   
+                  <block type="text">
+                      <text id="cxk-NX-1cN">Next, add more levels.</text>
+                  </block>
+                  <block type="buttons" alignment="trailing">
+                      <button href="@nextStep" symbol="arrow.right.circle.fill">
+                          <text id="hYH-GG-6JB">Next</text>
+                      </button>
+                  </block>
+               </blocks>
+           </message>
+        
+        
+        
+         <step type="code" name="moreLevels">
+            <blocks>
+                <assessment type="programmatic" name="moreLevels"/>
+                <block type="title">
+                    <title id="SxT-VP-g9a">Add More Levels</title>
+                    <text id="WGf-MB-Vhn">The typical game of Brick Breaker has <b>34</b> levels! See how many you can make.</text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="Y0G-Q7-3fH">To add a new level, begin by creating a new variable in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+                <block type="text">
+                    <text id="Yyy-Qk-lfH">Example: <cv><key>let</key> level3 = Level(using: Layout.color(🟪, rows: <num>3</num>, columns: <num>5</num>))</cv></text>
+                </block>
+                <block type="text">
+                    <text id="YkG-Qk-3fH">Then, add each new level to your <cv>Game</cv> initializer.</text>
+                </block>
+                <block type="text">
+                    <text id="uYn-eZ-tRi">Example: <cv><key>let</key> game = Game(levels: [level1, level2, level3])</cv></text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="L6I-Tb-9FB">Run your code and try out your multi-level game!</text>
+                </block>
+            </blocks>
+        </step>
+         
+         <message name="moreLevels-hint" sender="hopper">
+             <blocks>
+                 <block type="text">
+                     <text id="xtX-zH-uhg">Try adding one more level!</text>
+                 </block>
+                <block type="text">
+                    <text id="gqS-nU-PRx">Create a new level and add it to your <cv>Game</cv> initializer.</text>
+                </block>
+             </blocks>
+         </message>
+         
+         <message name="moreLevels-success" sender="byte">
+             <blocks>
+                 <block type="text">
+                     <text id="tWM-9D-1eT"><b>The more the merrier!</b></text>
+                 </block>
+                <block type="text">
+                     <text id="kKs-nq-WGC">Next, customize what happens when you win the game.</text>
+                 </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="vdG-xi-2HN">Next</text>
+                    </button>
+                </block>
+             </blocks>
+         </message>
+         
+         
+         
+        <step type="experiment" name="winGameExperiments">
+                <blocks>
+                    <assessment type="programmatic" badge="true" name="winGameExperiments"/>
+                    <block type="title" subtype="badge">
+                        <title id="Aim-Vm-WWN">🧑‍🔬 Customize Win Game</title>
+                    </block>
+                    <block type="carrot" subtype="experiment"/>
+                     <block type="text">
+                        <text id="cQh-ex-fRn">Edit the <cv>winGame</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Game.swift"><icon name="module"/> Game</a> to make something fun happen when you with the game!</text>
+                    </block>
+                  <groupblock subtype="task" name="gameText" disclosed="false">
+                    <title id="jjj-J9-SSW">Change the Text</title>
+                    <image source="change-the-text" backgroundcolor="#FFE78F"/>
+                    <block type="text">
+                        <text id="t3d-qh-yolo">Change the text, font size, and font color by modifying <cv>endMessage</cv>.</text>
+                    </block>
+                    <block type="text">
+                        <code><key>let</key> endMessage = Label(text: <str id="t3d-qh-Q1732">"🤩GADZOOKS🤩!"</str>, color: <literal>#colorLiteral(red: 1.0, green: 0.8, blue: 0.8, alpha: 1.0)</literal>, font: .MarkerFelt, size: <num>75</num>)</code>
+                    </block>
+                </groupblock>
+                   <groupblock subtype="task" name="gameTextAnimation" disclosed="false">
+                      <title id="mBR-Dw-AqX">Text Animations</title>
+                      <image source="text-animation" backgroundcolor="#FFC5C3"/>
+                      <block type="code">
+                        endMessage.spin(period: 3)
+                      </block>
+                      <block type="code">
+                        endMessage.sparkle(duration: 10, color: <literal>#colorLiteral(red: 0.9764705882352941, green: 0.8509803921568627, blue: 0.5490196078431373, alpha: 1.0)</literal>)
+                      </block>
+                       <block type="code">
+                        endMessage.pulsate()
+                      </block>
+                  </groupblock>
+                  <groupblock subtype="task" name="gameSceneAniation" disclosed="false">
+                      <title id="sZ2-Hw-JZ4">Scene Animations</title>
+                      <image source="scene-animations" backgroundcolor="#FAC9F3"/>
+                      <block type="code">
+                          scene.confetti(duration: <num>10</num>)
+                      </block>
+                      <block type="code">
+                          scene.bubbles(duration: <num>10</num>, color: <literal>#colorLiteral(red: 0.25882352941176473, green: 0.7568627450980392, blue: 0.9686274509803922, alpha: 1.0)</literal>)
+                      </block>
+                      <block type="code">
+                          scene.orbs(duration: <num>10</num>)
+                      </block>
+                  </groupblock>
+                  <groupblock subtype="task" name="gameSoundEffects" disclosed="false">
+                      <title id="uNG-Ea-JjZ">Sound Effects</title>
+                      <image source="sound-effects" backgroundcolor="#FDE2CB"/>
+                      <block type="code">playSound(.somethingGood7)</block>
+                      <block type="text">
+                           <text id="rfr-Wy-STE">Try other sounds, such as <cv>victory3</cv>, <cv>boing3</cv>, or <cv>boop1</cv>.</text>
+                      </block>
+                  </groupblock>
+                </blocks>
+            </step>
+        
+        
+        <message name="winGameExperiments-hint" sender="hopper">
+            <blocks>
+                
+                <block type="text">
+                    <text id="RdR-rv-PDW">Edit the <cv>winGame</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Game.swift"><icon name="module"/> Game</a>. Try playing a sound effect when you win, like this one:</text>
+                </block>
+               <block type="code">playSound(.powerUp1)</block>
+            </blocks>
+        </message>
+        
+        <message name="winGameExperiments-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="5PA-F4-13r"><b>Congratulations!</b></text>
+                </block>
+               <block type="text">
+                    <text id="jn4-Pm-2za">You built a fully functional game — what an accomplishment!</text>
+                </block>
+               <block type="text">
+                   <text id="YkG-Qk-3fHtw4re">Take a moment to reflect on how you did this. Instead of coding everything at the same time, you built the game piece by piece using <a href="glossary://decomposition">decomposition</a>. To do this, you used <a href="glossary://type">types</a> to organize your code.</text>
+               </block>
+               <block type="text">
+                   <text id="YkG-Qk-t45">You also wrote game logic to call functions when you win or lose, and you customized each of your game elements.</text>
+               </block>
+               <block type="text">
+                   <text id="uYn-eZ-tRwqerqweri"><b>Tip:</b> Try using this approach the next time you want to code something complex!</text>
+               </block>
+               <block type="text">
+                   <text id="WJ7-3e-iisdfvZ">Next, check out a sample game, or keep coding your own!</text>
+               </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@next" symbol="arrow.right.circle.fill">
+                       <text id="A7w-gh-XbQ">Next</text>
+                   </button>
+               </block>
+            </blocks>
+        </message>
+        
+        
+    </steps>
+</trail>

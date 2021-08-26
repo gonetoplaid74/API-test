@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0103">
+    <steps>
+        
+        <step type="context">
+            <blocks>
+                <assessment type="response" badge="true"/>
+                <block type="title" subtype="badge">
+                    <title id="sx1-t6-3qB">How Do You Win?</title>
+                </block>
+                <block type="text">
+                     <text id="KLU-jw-JJt">Before you write any code, think about the game logic. How do you know when you win the game?</text>
+                 </block>
+                <block type = "image" source="Page3Step1" height="0.6">
+                    <description id="p7v-mX-ufd">A picture of someone winning with bubbles and a party emoji.</description>
+                </block>
+                <block type="response" subtype="single-choice" name="winning" confirm="true">
+                    <prompt id="5u6-XZ-WHR">Select the winning scenario.</prompt>
+                    <option>
+                        <text id="2zp-tn-BCp">When all of the balls disappear.</text>
+                        <feedback id="LM7-p9-85y">No, that’s when you lose.</feedback>
+                    </option>
+                    <option>
+                        <text id="1Lv-gp-Vhj">When all of the paddles disappear.</text>
+                        <feedback id="ymv-sG-qG6">🤔 The paddles don’t go anywhere.</feedback>
+                    </option>
+                    <option type="correct">
+                        <text id="2s8-iN-h9b">When all of the bricks disappear.</text>
+                        <feedback id="kkG-KF-Ij7">Correct! Now make something fun happen when you win the game. 🎉
+                        
+                        <a href="@nextStep">Get Started!</a></feedback>
+                    </option>
+             </block>
+            </blocks>
+        </step>
+        
+        <step type="code" name="winning">
+          <blocks>
+              <assessment type="programmatic" badge="true" name="winning"/>
+              <block type="title" subtype="badge">
+                  <title id="2cL-Q9-r7S">Writing Your Winning Logic</title>
+              </block>
+              <block type="text">
+                  <text id="KLU-jw-xGt">To create the logic for winning the game, you have to do three things every time a brick breaks:</text>
+              </block>
+              <block type="text">
+                  <text id="Qai-rt-FdC">1. Subtract <cv>1</cv> from <cv>brickCount</cv>.</text>
+              </block>
+              <block type="text">
+                  <text id="BDR-XM-kAq">2. Check <a href="glossary://if%20statement">if</a> <cv>brickCount</cv> equals <cv>0</cv>.</text>
+              </block>
+              <block type="text">
+                  <text id="Z7q-v4-HIG">3. If no bricks remain, call <cv>winLevel</cv>.</text>
+              </block>
+              <block type="carrot" subtype="code"/>
+              <block type="text">
+                  <text id="mhd-pn-vW3">Write your game logic inside the <cv>checkForLevelCompletion()</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+              </block>
+              <block type="carrot" subtype="play"/>
+              <block type="text">
+                  <text id="Unt-D1-Pbr">Run your code to make sure your win function works as expected.</text>
+              </block>
+          </blocks>
+        </step>
+        
+        
+    <message name="winning-hint1" sender="hopper">
+           <blocks>
+               <block type="text">
+                   <text id="YUt-Np-GpW">Good start! Next add an <a href="glossary://if%20statement">if statements</a> for when <cv>brickCount</cv> equals 0.</text>
+               </block>
+               <block type="code">
+               <key>if</key> brickCount == <num>0</num> {
+                  <cmt id="wqu-We-Gsj">// Call winLevel</cmt>
+                  
+               }</block>
+           </blocks>
+       </message>
+    <message name="winning-hint3" sender="hopper">
+              <blocks>
+                  <block type="text">
+                      <text id="s3p-JX-XQu">Final step is to call <cv>winLevel</cv>. Write your code inside the <cv>if</cv> statement.</text>
+                  </block>
+                  <block type="code">winLevel()</block>
+              </blocks>
+          </message>
+      <message name="winning-hint2" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="bDE-Qk-agR">Write your game logic inside the <cv>checkForLevelCompletion()</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+                </block>
+                <block type="text">
+                    <text id="dzj-vZ-jRW">Start by subtracting 1 from <cv>brickCount</cv>:</text>
+                </block>
+               <block type="text">
+                   <text id="EaN-fa-AB9"><code>brickCount -= <num>1</num></code></text>
+               </block>
+            </blocks>
+        </message>
+          <message name="winning-success" sender="byte">
+              <blocks>
+                  <block type="text">
+                      <text id="enJ-in-yG4"><b>Well done!</b></text>
+                  </block>
+                  <block type="text">
+                      <text id="zt4-dH-ex3">Writing <a href="glossary://if%20statement">if statements</a> is not easy stuff!</text>
+                  </block>
+                  <block type="text">
+                      <text id="Asj-kj-mDD">Keep going to customize the reward.</text>
+                  </block>
+                  <block type="buttons" alignment="trailing">
+                      <button href="@nextStep" symbol="arrow.right.circle.fill">
+                          <text id="CFp-xz-D58">Next</text>
+                      </button>
+                  </block>
+              </blocks>
+          </message>
+                  
+                  
+                  
+        <step type="experiment" name="winningExperiments">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="winningExperiments"/>
+                <block type="title" subtype="badge">
+                    <title id="Uqe-vY-Fnh">🧑‍🔬 Customize the Reward</title>
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                <block type="text">
+                    <text id="dxa-2U-KRx">In <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>, edit the <cv>winLevel</cv> function to make your win condition more fun.</text>
+                </block>
+                <groupblock subtype="task" name="rewardText" disclosed="false">
+                    <title id="jjj-J9-111">Change the Text</title>
+                    <image source="change-the-text" backgroundcolor="#FFE78F"/>
+                    <block type="text">
+                        <text id="JOs-Cu-MAr">Change the emoji, font size, and font color by modifying <cv>reward</cv>.</text>
+                    </block>
+                    <block type="text">
+                        <code><key>let</key> reward = Label(text: <str id="XwN-R2-qjw">"🏵😍🏵"</str>, color: <literal>#colorLiteral(red: 0.5, green: 0.5, blue: 1.0, alpha: 1.0)</literal>, size: <num>150</num>, name: <str id="NKw-GF-GAx">"reward"</str>)</code>
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="rewardTextAnimations" disclosed="false">
+                    <title id="jt8-J9-222">Text Animations</title>
+                    <image source="text-animation" backgroundcolor="#FFC5C3"/>
+                    <block type="code">
+                      reward.bounce()
+                    </block>
+                    <block type="code">
+                      reward.glow()
+                    </block>
+                     <block type="code">
+                      reward.shake()
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="rewardSceneAnimations" disclosed="false">
+                    <title id="qBc-xQ-yfZ">Scene Animations</title>
+                    <image source="scene-animations" backgroundcolor="#FAC9F3"/>
+                    <block type="code">
+                        scene.confetti(duration: <num>3</num>)
+                    </block>
+                    <block type="code">
+                        scene.bubbles(duration: <num>7</num>, color: <literal>#colorLiteral(red: 0.25882352941176473, green: 0.7568627450980392, blue: 0.9686274509803922, alpha: 1.0)</literal>)
+                    </block>
+                    <block type="code">
+                        scene.orbs(duration: <num>5</num>)
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="rewardSoundEffects" disclosed="false">
+                    <title id="k7j-DY-mwq">Sound Effects</title>
+                    <image source="sound-effects" backgroundcolor="#FDE2CB"/>
+                    <block type="code">
+                        playSound(.powerUp3)
+                    </block>
+                    <block type="text">
+                        <text id="rfr-Wy-JOY">Try other sounds, such as <cv>victory1</cv>, <cv>somethingGood7</cv>, or <cv>clang</cv>.</text>
+                   </block>
+                </groupblock>
+                 <groupblock subtype="task" name="rewardCleanUp" disclosed="false">
+                    <title id="gee-mX-ftx">Clean Up</title>
+                    <image source="clean-up" backgroundcolor="#AFE4F2"/>
+                    <block type="text">
+                        <text id="rfr-Wy-x6k">Remove the reward after you’ve finished celebrating.</text>
+                    </block>
+                    <block type="code">
+                        removeReward()
+                    </block>
+                    <block type="text">
+                        <text id="Y4M-zD-Irn"><b>Tip:</b> To edit the length of time before removing the reward, edit the <cv>removeReward</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/LevelExtras.swift"><icon name="module"/> LevelExtras</a>.</text>
+                    </block>
+                </groupblock>
+                
+            </blocks>
+        </step>
+        
+        
+        <message name="winningExperiments-hint" sender="hopper">
+             <blocks>
+                 <block type="text">
+                     <text id="bEt-DD-3Ij">Be sure to try at least one experiment. A fun one is:</text>
+                 </block>
+                 <block type="code">scene.orbs(duration: <num>5</num>)</block>
+             </blocks>
+         </message>
+         <message name="winningExperiments-success" sender="byte">
+             <blocks>
+                 <block type="text">
+                     <text id="jR9-iu-gx3"><b>That feels like success!</b></text>
+                 </block>
+                 <block type="text">
+                    <text id="bTj-2H-3gu">Next, make it so you can lose the game.</text>
+                 </block>
+                 <block type="buttons" alignment="trailing">
+                     <button href="@next" symbol="arrow.right.circle.fill">
+                         <text id="AVh-Y5-IDp">Next</text>
+                     </button>
+                 </block>
+             </blocks>
+         </message>
+                         
+    </steps>
+</trail>

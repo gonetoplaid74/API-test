@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule17)*/</string>
+			<key>OriginalRange</key>
+			<string>{4, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{74, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{110, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{112, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule18)*/</string>
+			<key>OriginalRange</key>
+			<string>{174, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{145, 0}</string>
+			<key>OriginalContent</key>
+			<string>d in an array./*#-en</string>
+			<key>OriginalRange</key>
+			<string>{243, 20}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> </string>
+			<key>ModifiedRange</key>
+			<string>{146, 1}</string>
+			<key>OriginalContent</key>
+			<string>-local</string>
+			<key>OriginalRange</key>
+			<string>{264, 6}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>n an array.</string>
+			<key>ModifiedRange</key>
+			<string>{148, 11}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{271, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{211, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule19)*/</string>
+			<key>OriginalRange</key>
+			<string>{335, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{213, 0}</string>
+			<key>OriginalContent</key>
+			<string>e default numb</string>
+			<key>OriginalRange</key>
+			<string>{373, 14}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{214, 0}</string>
+			<key>OriginalContent</key>
+			<string>r of rows in a</string>
+			<key>OriginalRange</key>
+			<string>{388, 14}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{215, 0}</string>
+			<key>OriginalContent</key>
+			<string>layout./*#-en</string>
+			<key>OriginalRange</key>
+			<string>{403, 13}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>efault num</string>
+			<key>ModifiedRange</key>
+			<string>{216, 10}</string>
+			<key>OriginalContent</key>
+			<string>-localiza</string>
+			<key>OriginalRange</key>
+			<string>{417, 9}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>er of rows in a </string>
+			<key>ModifiedRange</key>
+			<string>{227, 16}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{427, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ay</string>
+			<key>ModifiedRange</key>
+			<string>{244, 2}</string>
+			<key>OriginalContent</key>
+			<string>e-z</string>
+			<key>OriginalRange</key>
+			<string>{428, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ut.</string>
+			<key>ModifiedRange</key>
+			<string>{247, 3}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{432, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{302, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule20)*/</string>
+			<key>OriginalRange</key>
+			<string>{488, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{324, 0}</string>
+			<key>OriginalContent</key>
+			<string>columns in a layout./*#-end-lo</string>
+			<key>OriginalRange</key>
+			<string>{546, 30}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>o</string>
+			<key>ModifiedRange</key>
+			<string>{325, 1}</string>
+			<key>OriginalContent</key>
+			<string>a</string>
+			<key>OriginalRange</key>
+			<string>{577, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>umns </string>
+			<key>ModifiedRange</key>
+			<string>{327, 5}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{579, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>n </string>
+			<key>ModifiedRange</key>
+			<string>{333, 2}</string>
+			<key>OriginalContent</key>
+			<string>z</string>
+			<key>OriginalRange</key>
+			<string>{580, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> </string>
+			<key>ModifiedRange</key>
+			<string>{336, 1}</string>
+			<key>OriginalContent</key>
+			<string>b</string>
+			<key>OriginalRange</key>
+			<string>{582, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ay</string>
+			<key>ModifiedRange</key>
+			<string>{338, 2}</string>
+			<key>OriginalContent</key>
+			<string>e-z</string>
+			<key>OriginalRange</key>
+			<string>{584, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ut.</string>
+			<key>ModifiedRange</key>
+			<string>{341, 3}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{588, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{399, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule21)*/</string>
+			<key>OriginalRange</key>
+			<string>{647, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{417, 0}</string>
+			<key>OriginalContent</key>
+			<string> in the</string>
+			<key>OriginalRange</key>
+			<string>{701, 7}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{418, 0}</string>
+			<key>OriginalContent</key>
+			<string>layout./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{709, 20}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>n the l</string>
+			<key>ModifiedRange</key>
+			<string>{419, 7}</string>
+			<key>OriginalContent</key>
+			<string>z</string>
+			<key>OriginalRange</key>
+			<string>{730, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>y</string>
+			<key>ModifiedRange</key>
+			<string>{427, 1}</string>
+			<key>OriginalContent</key>
+			<string>ble-z</string>
+			<key>OriginalRange</key>
+			<string>{732, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ut.</string>
+			<key>ModifiedRange</key>
+			<string>{429, 3}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{738, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{507, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule22)*/</string>
+			<key>OriginalRange</key>
+			<string>{817, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{521, 0}</string>
+			<key>OriginalContent</key>
+			<string>columns in the layout./*#-end-lo</string>
+			<key>OriginalRange</key>
+			<string>{867, 32}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>o</string>
+			<key>ModifiedRange</key>
+			<string>{522, 1}</string>
+			<key>OriginalContent</key>
+			<string>a</string>
+			<key>OriginalRange</key>
+			<string>{900, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>umns </string>
+			<key>ModifiedRange</key>
+			<string>{524, 5}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{902, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>n the l</string>
+			<key>ModifiedRange</key>
+			<string>{530, 7}</string>
+			<key>OriginalContent</key>
+			<string>z</string>
+			<key>OriginalRange</key>
+			<string>{903, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>y</string>
+			<key>ModifiedRange</key>
+			<string>{538, 1}</string>
+			<key>OriginalContent</key>
+			<string>ble-z</string>
+			<key>OriginalRange</key>
+			<string>{905, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ut.</string>
+			<key>ModifiedRange</key>
+			<string>{540, 3}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{911, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{683, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule23)*/</string>
+			<key>OriginalRange</key>
+			<string>{1055, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{731, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1139, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4247, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule24)*/</string>
+			<key>OriginalRange</key>
+			<string>{4681, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4282, 0}</string>
+			<key>OriginalContent</key>
+			<string>colors./*#-end-lo</string>
+			<key>OriginalRange</key>
+			<string>{4752, 17}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>olors.</string>
+			<key>ModifiedRange</key>
+			<string>{4283, 6}</string>
+			<key>OriginalContent</key>
+			<string>alizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{4770, 15}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4375, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule25)*/</string>
+			<key>OriginalRange</key>
+			<string>{4871, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4403, 0}</string>
+			<key>OriginalContent</key>
+			<string>default color./*#-en</string>
+			<key>OriginalRange</key>
+			<string>{4935, 20}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>efau</string>
+			<key>ModifiedRange</key>
+			<string>{4404, 4}</string>
+			<key>OriginalContent</key>
+			<string>-</string>
+			<key>OriginalRange</key>
+			<string>{4956, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>t </string>
+			<key>ModifiedRange</key>
+			<string>{4409, 2}</string>
+			<key>OriginalContent</key>
+			<string>o</string>
+			<key>OriginalRange</key>
+			<string>{4958, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>olor.</string>
+			<key>ModifiedRange</key>
+			<string>{4412, 5}</string>
+			<key>OriginalContent</key>
+			<string>alizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{4960, 15}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4599, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule26)*/</string>
+			<key>OriginalRange</key>
+			<string>{5157, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4636, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{5230, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4893, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule27)*/</string>
+			<key>OriginalRange</key>
+			<string>{5513, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4916, 0}</string>
+			<key>OriginalContent</key>
+			<string>dom colors./*#-en</string>
+			<key>OriginalRange</key>
+			<string>{5572, 17}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4917, 0}</string>
+			<key>OriginalContent</key>
+			<string>-l</string>
+			<key>OriginalRange</key>
+			<string>{5590, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>m </string>
+			<key>ModifiedRange</key>
+			<string>{4918, 2}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{5593, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>olors.</string>
+			<key>ModifiedRange</key>
+			<string>{4921, 6}</string>
+			<key>OriginalContent</key>
+			<string>alizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{5594, 15}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/Layout.swift</string>
+</dict>
+</plist>

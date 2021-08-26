@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0201">
+    <steps>
+        
+        <step type="code" name="addingLives">
+            <blocks>
+                <assessment type="programmatic" name="addingLives"/>
+                <block type="title">
+                    <title id="t8z-q1-3Vg">Adding Lives</title>
+                    <text id="imY-Xw-KKg">You now have a fully working game, but you only get <i>one</i> attempt to beat the level 😤.</text>
+                </block>
+                <block type = "image" source="Page5Step1">
+                    <description id="umh-Ee-DFf">Three fish, two that look alive and one that looks dead, indicating that you have lost one of your three lives.</description>
+                </block>
+                <block type="text">
+                    <text id="Sui-Sn-NSf">You can change this by adding a <a href="glossary://variable">variable</a>, called <cv>lives</cv>.</text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="U33-ja-srP">Add a <cv>lives</cv> variable to the top of <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+                </block>
+                <block type="text">
+                    <text id="XFS-RS-2aE"><code><cmt id="HD4-iF-ssZ">// Add lives.</cmt></code></text>
+                </block>
+                <block type="code">
+                   <key>var</key> lives = <num>3</num>
+               </block>
+                <block type="carrot" subtype="tryit"/>
+                <block type="text">
+                    <text id="X1L-LY-i8Z">Press Run My Code to check that your code runs.</text>
+                </block>
+            </blocks>
+        </step>
+        
+        
+        
+        <message name="addingLives-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                     <text id="fvz-MY-8C4">Locate the comment, <cv>// Add lives</cv> in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+                 </block>
+                 <block type="text">
+                     <text id="6Er-m5-D4B">Then add the line below and run your code.</text>
+                 </block>
+                 <block type="code">
+                    <key>var</key> lives = <num>3</num>
+                </block>
+            </blocks>
+        </message>
+        <message name="addingLives-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="ZLZ-fn-IR9"><b>Good start!</b></text>
+                </block>
+               <block type="text">
+                    <text id="Grq-1d-aH4">Next, edit the game logic to include lives.</text>
+                </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@nextStep" symbol="arrow.right.circle.fill">
+                       <text id="dfL-b4-LDJ">Next</text>
+                   </button>
+               </block>
+            </blocks>
+        </message>
+        
+        
+        
+        
+        
+        <step type="context" name="losingLogic">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="losingLogic"/>
+                <block type="title" subtype="badge">
+                    <title id="Civ-MS-2WG">New Losing Logic</title>
+                </block>
+                <block type="text">
+                    <text id="1UT-EX-hXd">The logic for losing the game is currently found in the <cv>hitFoulLine</cv> function.</text>
+                </block>
+                <block type="text">
+                    <code><key>func</key> hitFoulLine(sprite: <type>Sprite</type>) {
+    removeBall(sprite)
+    
+    <key>if</key> balls.count == <num>0</num> {
+        loseLevel()
+    }
+}</code>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="Hqy-dn-g2p">Edit the logic in <cv>hitFoulLine</cv> so that each time the ball hits the foul line, you lose a life. When you lose all of your lives, you lose the level!</text>
+                </block>
+                <block type="text">
+                    <text id="tea-5n-qWL">To do this, you’ll need to do the following:</text>
+                </block>
+                <block type="text">
+                    <text id="r35-tb-KYY">1. If <cv>balls.count</cv> equals <cv>0</cv>, subtract a life.</text>
+                </block>
+                <block type="text">
+                    <text id="Awh-aF-yRd">2. If <cv>lives</cv> equals <cv>0</cv>, lose the level.</text>
+                </block>
+                <block type="text">
+                    <text id="pId-FY-GAD">3. If there are no balls left, but there are still lives left, start a new ball.</text>
+                </block>
+                <groupblock disclosed="false">
+                    <image character="hopper"/>
+                    <title id="imm-9j-5Jw">Need Help?</title>
+                    <block type="text">
+                        <text id="PYJ-7y-Fcc">This is a tricky one. You will have to update the code you just wrote in <cv>hitFoulLine</cv>.</text>
+                    </block>
+                    <block type="text">
+                        <text id="srE-WS-zzS">Start by adding this when there are no balls left.</text>
+                    </block>
+                    <block type="text"><code>lives -= <num>1</num></code></block>
+                        <block type="text">
+                            <text id="F8U-Jf-LU7">Then add an <cv>else</cv> statement, like this: </text>
+                        </block>
+                    <block type="text"><code><key>else</key> {
+                           <key>let</key> ball = addBall()
+                           startBall(ball)
+                        }</code></block>
+                </groupblock>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="i6k-Qi-kDP">Run your code and see what it’s like to have multiple lives!</text>
+                </block>
+            </blocks>
+        </step>
+        
+        
+        <message name="losingLogic-hint" sender="hopper">
+           <blocks>
+               <block type="text">
+                   <text id="BMd-NN-G2z">Your code inside the <cv>hitFoulLine</cv> function should look like this:</text>
+               </block>
+               <block type="text"><code>removeBall(sprite)
+
+               <key>if</key> balls.count == <num>0</num> {
+                  lives -= <num>1</num>
+
+                   <key>if</key> lives == <num>0</num> {
+                       loseLevel()
+                   } <key>else</key> {
+                      <key>let</key> ball = addBall()
+                      startBall(ball)
+                   }
+               }</code></block>
+           </blocks>
+       </message>
+       <message name="losingLogic-success" sender="byte">
+           <blocks>
+               <block type="text">
+                   <text id="M1F-Up-ui6"><b>Your game is so advanced!</b></text>
+               </block>
+              <block type="text">
+                  <text id="Wub-JV-F3N">Next, check your understanding of the advanced game logic.</text>
+              </block>
+              <block type="buttons" alignment="trailing">
+                  <button href="@nextStep" symbol="arrow.right.circle.fill">
+                      <text id="Ukb-XU-qDz">Next</text>
+                  </button>
+              </block>
+           </blocks>
+       </message>
+        
+        
+        
+        
+        
+                     
+         <step type="check">
+            <blocks>
+                <assessment type="response" badge="true"/>
+                <block type="title" subtype="badge">
+                    <title id="Y7m-IL-TWM">Check Yourself</title>
+                </block>
+                <block type="text">
+                    <text id="rs32a30-i-A7jb22a">What would happen in the following scenario?</text>
+                </block>
+                <block type = "image" source="Page5Step3" height="0.75">
+                    <description id="fuB-s7-nT2">A picture of a ball hitting a brick and there are more bricks left on the scene.</description>
+                </block>
+                <block type="response" subtype="single-choice" name="logic3" confirm="true">
+                    <prompt id="fPg-4I-5Ek">If a ball hits the foul line and there are no balls or lives left?</prompt>
+                    <option type="correct">
+                        <text id="q5Z-eS-3q5">You lose the game</text>
+                        <feedback id="Zq8-QK-jjZ">Correct! <a href="@nextStep">Next Question!</a></feedback>
+                    </option>
+                     <option>
+                        <text id="UVr-8x-NWV">The game keeps going.</text>
+                        <feedback id="Zq8-pp-jjZ">How do you play without any balls?</feedback>
+                    </option>
+                    <option>
+                        <text id="RMW-Ny-q6y">The ball restarts.</text>
+                        <feedback id="Z44-QK-jjZ">0 balls + 0 lives = ??</feedback>
+                    </option>
+             </block>
+               
+            </blocks>
+        </step>
+         
+         <step type="check">
+                   <blocks>
+                       <assessment type="response" badge="true"/>
+                       <block type="title" subtype="badge">
+                           <title id="3JH-7p-zim">Check Yourself</title>
+                       </block>
+                       <block type="text">
+                           <text id="rs32a30-hsdfk-jb22a">What would happen in the following scenario?</text>
+                       </block>
+                       <block type = "image" source="Page5Step4" height="0.75">
+                           <description id="fUK-s7-nT2">A picture of a ball hitting the foul line and two balls remain on the scene.</description>
+                       </block>
+                     <block type="response" subtype="single-choice" name="logic4" confirm="true">
+                           <prompt id="y1L-2b-K12">If a ball hits the foul line and there are no lives left, but two more balls on the scene?</prompt>
+                            <option>
+                               <text id="NLi-2y-fGZ">You lose the game.</text>
+                               <feedback id="Zq8-QK-iiZ">Not yet, there are still more balls!</feedback>
+                           </option>
+                           <option type="correct">
+                               <text id="FFV-NZ-DQB">The game keeps going.</text>
+                               <feedback id="Zq8-QK-ppZ">Correct! <a href="@next">Next</a>, create a game with multiple levels.</feedback>
+                           </option>
+                           <option>
+                               <text id="Wha-pn-qSF">The ball restarts.</text>
+                               <feedback id="Zq8-QK-llZ">This only happens if you don’t have any more balls but you do have lives.</feedback>
+                           </option>
+                    </block>
+                      
+                   </blocks>
+               </step>
+        
+    </steps>
+</trail>

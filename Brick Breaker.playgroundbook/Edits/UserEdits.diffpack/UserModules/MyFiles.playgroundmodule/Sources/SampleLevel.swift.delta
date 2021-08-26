@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel1)*/</string>
+			<key>OriginalRange</key>
+			<string>{4, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{17, 0}</string>
+			<key>OriginalContent</key>
+			<string>e Brick Break</string>
+			<key>OriginalRange</key>
+			<string>{53, 13}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> B</string>
+			<key>ModifiedRange</key>
+			<string>{18, 2}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{67, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{21, 0}</string>
+			<key>OriginalContent</key>
+			<string> game./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{68, 19}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ck Breaker game.</string>
+			<key>ModifiedRange</key>
+			<string>{22, 16}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{88, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{90, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel2)*/</string>
+			<key>OriginalRange</key>
+			<string>{152, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{119, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{217, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{163, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel3)*/</string>
+			<key>OriginalRange</key>
+			<string>{287, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{189, 0}</string>
+			<key>OriginalContent</key>
+			<string> in the</string>
+			<key>OriginalRange</key>
+			<string>{349, 7}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{190, 0}</string>
+			<key>OriginalContent</key>
+			<string>level./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{357, 19}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{191, 0}</string>
+			<key>OriginalContent</key>
+			<string>zable-zo</string>
+			<key>OriginalRange</key>
+			<string>{377, 8}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> the level.</string>
+			<key>ModifiedRange</key>
+			<string>{192, 11}</string>
+			<key>OriginalContent</key>
+			<string>e*/</string>
+			<key>OriginalRange</key>
+			<string>{386, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{251, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel4)*/</string>
+			<key>OriginalRange</key>
+			<string>{437, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{263, 0}</string>
+			<key>OriginalContent</key>
+			<string>image used for balls./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{485, 34}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>m</string>
+			<key>ModifiedRange</key>
+			<string>{264, 1}</string>
+			<key>OriginalContent</key>
+			<string>z</string>
+			<key>OriginalRange</key>
+			<string>{520, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ge used f</string>
+			<key>ModifiedRange</key>
+			<string>{266, 9}</string>
+			<key>OriginalContent</key>
+			<string>ble-z</string>
+			<key>OriginalRange</key>
+			<string>{522, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>r balls.</string>
+			<key>ModifiedRange</key>
+			<string>{276, 8}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{528, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{377, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel4b)*/</string>
+			<key>OriginalRange</key>
+			<string>{625, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{379, 0}</string>
+			<key>OriginalContent</key>
+			<string>e default image used for the paddle./*#-</string>
+			<key>OriginalRange</key>
+			<string>{664, 40}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> </string>
+			<key>ModifiedRange</key>
+			<string>{380, 1}</string>
+			<key>OriginalContent</key>
+			<string>n</string>
+			<key>OriginalRange</key>
+			<string>{705, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ef</string>
+			<key>ModifiedRange</key>
+			<string>{382, 2}</string>
+			<key>OriginalContent</key>
+			<string>-loc</string>
+			<key>OriginalRange</key>
+			<string>{707, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>u</string>
+			<key>ModifiedRange</key>
+			<string>{385, 1}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{712, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>t </string>
+			<key>ModifiedRange</key>
+			<string>{387, 2}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{713, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>m</string>
+			<key>ModifiedRange</key>
+			<string>{390, 1}</string>
+			<key>OriginalContent</key>
+			<string>z</string>
+			<key>OriginalRange</key>
+			<string>{714, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ge used f</string>
+			<key>ModifiedRange</key>
+			<string>{392, 9}</string>
+			<key>OriginalContent</key>
+			<string>ble-z</string>
+			<key>OriginalRange</key>
+			<string>{716, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>r the paddle.</string>
+			<key>ModifiedRange</key>
+			<string>{402, 13}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{722, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{508, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel5)*/</string>
+			<key>OriginalRange</key>
+			<string>{819, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{570, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{917, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{618, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel6)*/</string>
+			<key>OriginalRange</key>
+			<string>{991, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{665, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1074, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{704, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel7)*/</string>
+			<key>OriginalRange</key>
+			<string>{1139, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{735, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1206, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{859, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel8)*/</string>
+			<key>OriginalRange</key>
+			<string>{1356, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{903, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1436, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1156, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel9)*/</string>
+			<key>OriginalRange</key>
+			<string>{1715, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1198, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1793, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1243, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevelcomments1)*/</string>
+			<key>OriginalRange</key>
+			<string>{1864, 44}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1250, 0}</string>
+			<key>OriginalContent</key>
+			<string>addle./*#-end-localiz</string>
+			<key>OriginalRange</key>
+			<string>{1915, 21}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>dd</string>
+			<key>ModifiedRange</key>
+			<string>{1251, 2}</string>
+			<key>OriginalContent</key>
+			<string>b</string>
+			<key>OriginalRange</key>
+			<string>{1937, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>.</string>
+			<key>ModifiedRange</key>
+			<string>{1255, 1}</string>
+			<key>OriginalContent</key>
+			<string>-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1940, 7}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1297, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevelcomments2)*/</string>
+			<key>OriginalRange</key>
+			<string>{1988, 44}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1331, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{2066, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1405, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevelcomments3)*/</string>
+			<key>OriginalRange</key>
+			<string>{2166, 44}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1424, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{2229, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1512, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevelcomments4)*/</string>
+			<key>OriginalRange</key>
+			<string>{2343, 44}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1533, 0}</string>
+			<key>OriginalContent</key>
+			<string>line./*#-end-loca</string>
+			<key>OriginalRange</key>
+			<string>{2408, 17}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1535, 0}</string>
+			<key>OriginalContent</key>
+			<string>zable-zo</string>
+			<key>OriginalRange</key>
+			<string>{2427, 8}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>.</string>
+			<key>ModifiedRange</key>
+			<string>{1537, 1}</string>
+			<key>OriginalContent</key>
+			<string>*/</string>
+			<key>OriginalRange</key>
+			<string>{2437, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1600, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLeveladdAccessibility)*/</string>
+			<key>OriginalRange</key>
+			<string>{2501, 51}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1630, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{2582, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1677, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel9b)*/</string>
+			<key>OriginalRange</key>
+			<string>{2655, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1723, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{2738, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3438, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel10)*/</string>
+			<key>OriginalRange</key>
+			<string>{4479, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3494, 0}</string>
+			<key>OriginalContent</key>
+			<string>omplete./*#-end-localizable-z</string>
+			<key>OriginalRange</key>
+			<string>{4572, 29}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>mplete.</string>
+			<key>ModifiedRange</key>
+			<string>{3495, 7}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{4602, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3652, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel11)*/</string>
+			<key>OriginalRange</key>
+			<string>{4756, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3682, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{4823, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4082, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel12)*/</string>
+			<key>OriginalRange</key>
+			<string>{5249, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4094, 0}</string>
+			<key>OriginalContent</key>
+			<string>the ball hits </string>
+			<key>OriginalRange</key>
+			<string>{5298, 14}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4096, 0}</string>
+			<key>OriginalContent</key>
+			<string>e foul line./*#-</string>
+			<key>OriginalRange</key>
+			<string>{5314, 16}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> </string>
+			<key>ModifiedRange</key>
+			<string>{4097, 1}</string>
+			<key>OriginalContent</key>
+			<string>nd-localiza</string>
+			<key>OriginalRange</key>
+			<string>{5331, 11}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>all hits th</string>
+			<key>ModifiedRange</key>
+			<string>{4099, 11}</string>
+			<key>OriginalContent</key>
+			<string>l</string>
+			<key>OriginalRange</key>
+			<string>{5343, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> f</string>
+			<key>ModifiedRange</key>
+			<string>{4111, 2}</string>
+			<key>OriginalContent</key>
+			<string>-z</string>
+			<key>OriginalRange</key>
+			<string>{5345, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ul li</string>
+			<key>ModifiedRange</key>
+			<string>{4114, 5}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{5348, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>.</string>
+			<key>ModifiedRange</key>
+			<string>{4121, 1}</string>
+			<key>OriginalContent</key>
+			<string>*/</string>
+			<key>OriginalRange</key>
+			<string>{5350, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4772, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel13)*/</string>
+			<key>OriginalRange</key>
+			<string>{6002, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4803, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{6070, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{5126, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel14)*/</string>
+			<key>OriginalRange</key>
+			<string>{6419, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{5168, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{6498, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{5605, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel15)*/</string>
+			<key>OriginalRange</key>
+			<string>{6961, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{5639, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{7032, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{5956, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sampleLevel16)*/</string>
+			<key>OriginalRange</key>
+			<string>{7375, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{6002, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{7458, 26}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/SampleLevel.swift</string>
+</dict>
+</plist>

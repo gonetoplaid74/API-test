@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0104">
+    <steps>
+        
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="FPT-Z9-8C6">Losing</title>
+                    <text id="RK9-MN-gHG">Now that your game has a win condition, it’s time to make a lose condition!</text>
+                </block>
+                <block type = "image" source="Page4Step1" height="0.5">
+                    <description id="qTi-Uu-ivZ">A picture of someone losing.</description>
+                </block>
+                <block type="text">
+                    <text id="8h9-BP-NQQ">If the ball sneaks past your paddle and hits the wall beneath it (the <b>foul line</b>), you lose the game.
+
+                    When you lose, remove the ball and present a losing animation.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="PuQ-2L-CsZ">Get started!</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+       
+         <step type="code" name="foulLine">
+          <blocks>
+              <assessment type="programmatic" name="foulLine"/>
+              <block type="title">
+                  <title id="u5c-EN-j5G">Add the Foul Line</title>
+              </block>
+              <block type="carrot" subtype="code"/>
+              <block type="text">
+                  <text id="C2Y-9Q-34G">Add a foul line to the scene by calling <cv>addFoulLine()</cv> inside the <cv>run</cv> function.</text>
+              </block>
+              <block type="text">
+                  <text id="zTK-tV-6hL">Add your code below this comment:
+                      <cmt id="dQr-c6-nP1">// Add walls and a foul line.</cmt></text>
+              </block>
+              <block type="code">addFoulLine()</block>
+              <block type="carrot" subtype="play"/>
+              <block type="text">
+                  <text id="W73-Jh-idy">Run your code to see your foul line on the scene.</text>
+              </block>
+          </blocks>
+        </step>
+        
+        
+        <message name="foulLine-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="Jbk-BB-Vhz">Try adding a foul line by adding this code into the <cv>run</cv> function:</text>
+                </block>
+                <block type="code">addFoulLine()</block>
+            </blocks>
+        </message>
+        <message name="foulLine-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="WhA-Pw-RZZ"><b>Step 1 ✅</b></text>
+                </block>
+                <block type="text">
+                    <text id="euwlieieindkfeilakje">Next, write the logic that calls the <cv>loseLevel</cv> function.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="ZtG-if-J7r">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+        
+        
+        <step type="code" name="losing">
+          <blocks>
+              <assessment type="programmatic" badge="true" name="losing"/>
+              <block type="title" subtype="badge">
+                  <title id="JiK-Z8-6DY">Write Your Losing Logic</title>
+                  <text id="lll-xC-RvF">Now that you have a foul line, write the logic for when it gets hit.</text>
+              </block>
+              <block type="text">
+                  <text id="ooo-xC-RvF">When the ball hits the foul line, you should do two things:</text>
+              </block>
+              <block type="text">
+                  <text id="uai-37-zLB">1. Use the <cv>removeBall</cv> function to remove the ball (<cv>sprite</cv>).</text>
+              </block>
+              <block type="text">
+                  <text id="uDd-mw-Hei">2. When there are no balls left (there could be multiple!), call <cv>loseLevel</cv>.</text>
+              </block>
+              <block type="carrot" subtype="code"/>
+              <block type="text">
+                  <text id="gI8-k4-uSR">Try writing the losing logic inside the <cv>hitFoulLine</cv> function</text>
+              </block>
+              <groupblock disclosed="false">
+                   <image character="hopper"/>
+                    <title id="zgi-Re-vMB">Need Help?</title>
+                    <block type="code">
+removeBall(sprite)
+        
+<key>if</key> balls.count == <num>0</num> {
+    loseLevel()
+}
+                    </block>
+                </groupblock>
+              <block type="carrot" subtype="play"/>
+              <block type="text">
+                  <text id="rPq-Dg-CbV">Run your code and play your game to make sure the lose function works as expected.</text>
+              </block>
+          </blocks>
+        </step>
+        
+        <message name="losing-hint" sender="hopper">
+              <blocks>
+                  <block type="text">
+                      <text id="5Np-AG-ZBv">In <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>, edit <cv>hitFoulLine(sprite:)</cv> to include this code:</text>
+                  </block>
+                   <block type="code">
+                  removeBall(sprite)
+                          
+                  <key>if</key> balls.count == <num>0</num> {
+                      loseLevel()
+                  }</block>
+              </blocks>
+          </message>
+          <message name="losing-success" sender="byte">
+              <blocks>
+                  <block type="text">
+                      <text id="YRR-L4-mwf">😲<b>Uh-oh! Now you can lose.</b>😬</text>
+                  </block>
+                  <block type="text">
+                      <text id="HFQ-mF-HvS">Next, give the player a message when they lose.</text>
+                  </block>
+                  <block type="buttons" alignment="trailing">
+                      <button href="@nextStep" symbol="arrow.right.circle.fill">
+                          <text id="bB8-n2-Pfu">Next</text>
+                      </button>
+                  </block>
+              </blocks>
+          </message>
+          
+          
+          
+        
+         <step type="experiment" name="losingExperiments">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="losingExperiments"/>
+                <block type="title" subtype="badge">
+                    <title id="D4U-gd-8Zi">🧑‍🔬 ︎Customize Your Failure Condition</title>
+                </block>
+                 <block type = "image" source="Page4Step4" height="0.6">
+                    <description id="h85-6w-GWI">A picture of the game being lost, and lots of clouds covering the scene.</description>
+                </block>
+                 <block type="carrot" subtype="experiment"/>
+                 <block type="text">
+                    <text id="KwI-9M-2Gw">In <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>, edit <cv>loseLevel</cv> to add sad animations when you lose.</text>
+                </block>
+                <groupblock subtype="task" name="loseText" disclosed="false">
+                    <title id="jt8-J9-SiW">Change the Text</title>
+                    <image source="change-the-text" backgroundcolor="#FFE78F"/>
+                    <block type="text">
+                        <text id="Hey-Wy-JOY">Change the emoji, font size, and font color by modifying <cv>failure</cv>.</text>
+                    </block>
+                    <block type="text">
+                        <code><key>let</key> failure = Label(text: <str id="xvi-Bg-jjn">"🥺😱😤"</str>, color: <literal>#colorLiteral(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0)</literal>, size: <num>180</num>)</code>
+                    </block>
+                </groupblock>
+                 <groupblock subtype="task" name="loseTextAnimations" disclosed="false">
+                    <title id="CFn-Mj-UPC">Text Animations</title>
+                    <image source="text-animation" backgroundcolor="#FFC5C3"/>
+                    <block type="code">
+                      failure.bounce()
+                    </block>
+                    <block type="code">
+                      failure.glow()
+                    </block>
+                     <block type="code">
+                      failure.shake()
+                    </block>
+                </groupblock>
+                  <groupblock subtype="task" name="loseSceneAnimations" disclosed="false">
+                    <title id="6fP-zt-J7y" >Scene Animations</title>
+                    <image source="scene-animations" backgroundcolor="#FAC9F3"/>
+                    <block type="code">
+                        scene.clouds(duration: <num>3</num>)
+                    </block>
+                    <block type="code">
+                        scene.clouds(duration: <num>4</num>, color: <literal>#colorLiteral(red: 0.17647058823529413, green: 0.011764705882352941, blue: 0.5607843137254902, alpha: 1.0)</literal>)
+                    </block>
+                    <block type="code">
+                        scene.rain(duration: <num>7</num>)
+                    </block>
+                   <block type="code">
+                       scene.rain(duration: <num>7</num>, color: <literal>#colorLiteral(red: 0.5843137254901961, green: 0.8235294117647058, blue: 0.4196078431372549, alpha: 1.0)</literal>)
+                   </block>
+                </groupblock>
+                 <groupblock subtype="task" name="loseSoundEffects" disclosed="false">
+                    <title id="BuK-VM-b32">Sound Effects</title>
+                    <image source="sound-effects" backgroundcolor="#FDE2CB"/>
+                    <block type="code">
+                        playSound(.somethingBad2)
+                    </block>
+                    <block type="text">
+                         <text id="JOY-Wy-JOY">Try other sounds such as: <cv>warble</cv>, <cv>thud</cv>, or <cv>spring3</cv>.</text>
+                    </block>
+                </groupblock>
+            </blocks>
+        </step>
+         
+         
+         
+         <message name="losingExperiments-hint" sender="hopper">
+             <blocks>
+                 <block type="text">
+                     <text id="LPT-2z-4T4">Maybe try something like this:</text>
+                 </block>
+                  <block type="code">
+                      scene.rain(duration: <num>7</num>)
+                  </block>
+                  <block type="text">
+                      <text id="wyZ-bt-8h2">Be sure to write your code in the <cv>loseLevel</cv> function.</text>
+                  </block>
+             </blocks>
+         </message>
+         <message name="losingExperiments-success" sender="byte">
+             <blocks>
+                 <block type="text">
+                     <text id="DNt-BF-j9j"><b>Nice modifications!</b></text>
+                 </block>
+                 <block type="text">
+                     <text id="hkQ-k3-LJa">Great job so far and remember: the more creative you make the game, the more fun it will be to play, and the more skilled you will be as a programmer. Have fun!</text>
+                 </block>
+                 <block type="text">
+                     <text id="qpqowiwiueuryt">Next, add lives to make your game even better.</text>
+                 </block>
+                 <block type="buttons" alignment="trailing">
+                     <button href="@next" symbol="arrow.right.circle.fill">
+                         <text id="pun-Bv-N1Q">Next</text>
+                     </button>
+                 </block>
+             </blocks>
+         </message>
+         
+    </steps>
+</trail>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{23, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodulePaddle1)*/</string>
+			<key>OriginalRange</key>
+			<string>{23, 41}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{95, 0}</string>
+			<key>OriginalContent</key>
+			<string>l the ball./*#-end-loca</string>
+			<key>OriginalRange</key>
+			<string>{136, 23}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> the </string>
+			<key>ModifiedRange</key>
+			<string>{96, 5}</string>
+			<key>OriginalContent</key>
+			<string>iza</string>
+			<key>OriginalRange</key>
+			<string>{160, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>all.</string>
+			<key>ModifiedRange</key>
+			<string>{102, 4}</string>
+			<key>OriginalContent</key>
+			<string>le-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{164, 9}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{201, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodulePaddle2)*/</string>
+			<key>OriginalRange</key>
+			<string>{268, 41}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{243, 0}</string>
+			<key>OriginalContent</key>
+			<string>th with your </string>
+			<key>OriginalRange</key>
+			<string>{351, 13}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{244, 0}</string>
+			<key>OriginalContent</key>
+			<string>ouc</string>
+			<key>OriginalRange</key>
+			<string>{365, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> w</string>
+			<key>ModifiedRange</key>
+			<string>{245, 2}</string>
+			<key>OriginalContent</key>
+			<string>./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{369, 14}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>th your touch.</string>
+			<key>ModifiedRange</key>
+			<string>{248, 14}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{384, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{385, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodulePaddle3)*/</string>
+			<key>OriginalRange</key>
+			<string>{519, 41}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{422, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{597, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{557, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodulePaddle4)*/</string>
+			<key>OriginalRange</key>
+			<string>{758, 41}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{604, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{846, 26}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/Paddle.swift</string>
+</dict>
+</plist>

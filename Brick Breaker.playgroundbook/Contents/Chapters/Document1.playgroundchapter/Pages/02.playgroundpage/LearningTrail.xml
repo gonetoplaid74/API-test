@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0102">
+    <steps>
+        
+        <step type="code" name="addingBricks">
+            <blocks>
+                <assessment type="programmatic" name="addingBricks"/>
+                <block type="title">
+                    <title id="Bt1-Rb-HNS">Adding Bricks</title>
+                    <text id="jRs-36-WLS">Now that you have a ball and paddle, you need some bricks to break!</text>
+                </block>
+                <block type = "image" source="Page2Step1" height="0.5">
+                    <description id="I7A-9U-AMH">Unique brick layouts, such as a heart and ones with gaps in the middle of the bricks.</description>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="Db9-gN-TAW">In <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>, create all of your <cv>Brick</cv> <a href="glossary://instance">instances</a> by calling <cv>addBricks</cv> in the <cv>run</cv> function.</text>
+                </block>
+              <block type="text">
+                  <text id="rVS-MC-tkU">Add your code below this comment:
+                      <cmt id="zc3-XJ-hDH">// Add a brick layout.</cmt></text>
+              </block>
+              <block type="code">
+                  addBricks(layout: layout, brickMaker: createBrick(color:))
+              </block>
+              <block type="carrot" subtype="play"/>
+              <block type="text">
+                  <text id="j8G-SY-zfP">Run your code to see a custom brick layout.</text>
+              </block>
+              
+              <groupblock disclosed="false">
+                <title id="E6Z-jb-6rc">Learn More About the Brick Type</title>
+                <image character="expert"/>
+                <block type="text">
+                    <text id="kfV-vA-yw5">By default, a brick can’t move, and it breaks when you hit it with the ball. The <cv>strength</cv> property determines the number of times it must be hit before it breaks.</text>
+                </block>
+                <block type="text">
+                    <text id="yEF-iP-WSX">Later, you’ll learn how to modify some of the other brick properties to make your game fun and unique.</text>
+                </block>
+                <block type="text">
+                    <text id="JrR-As-wjy">Try reading through the code in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Brick.swift"><icon name="module"/> Brick</a>, in the <a href="glossary://MyFiles">MyFiles</a> module, to see what else you can learn about the brick type.</text>
+                </block>
+            </groupblock>
+            </blocks>
+        </step>
+        
+        
+        <message name="addingBricks-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="KdY-58-XXj">Try that one more time...write your code below the comment,
+                        <cmt id="MW5-7V-tg9">// Add a brick layout</cmt>, in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a></text>
+                </block>
+                <block type="code">addBricks(layout: layout, brickMaker: createBrick(color:))</block>
+            </blocks>
+        </message>
+        <message name="addingBricks-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="MeY-F1-Tez"><b>Nice work!</b></text>
+                </block>
+                <block type="text">
+                    <text id="RRT-ZB-eDx">Now that you have bricks to play with, learn about layouts.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="nfB-9f-k8e">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+        
+        
+        
+        
+        
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="Uqa-w1-vfr">Laying Out the Bricks</title>
+                </block>
+                <block type="text">
+                    <text id="Zrj-YS-r43">When you run your level using <cv>level.run()</cv>, the <cv>addBricks</cv> function uses a <b>Layout</b> to place all of the bricks on the scene.</text>
+                </block>
+                <block type = "image" source="Page2Step2.pdf" height="0.2">
+                    <description id="HR4-gJ-vwD">Shows how to translate between layout code and bricks</description>
+                </block>
+                <block type="text">
+                    <text id="MdJ-C3-gFd">A layout is just an array of colors. Using a layout, <cv>addBricks</cv> turns each color into an individual brick in your game.</text>
+                </block>
+                <groupblock disclosed="false">
+                    <title id="LuK-Rr-EsF">Why Do I Need to Use a Layout?</title>
+                    <image character="hopper"/>
+                    <block type="text">
+                    <text id="beQ-39-4AF">If you didn’t use a layout, you’d have to create and place each brick individually 😱.</text>
+                </block>
+                </groupblock>
+                <block type="text">
+                    <text id="vHX-87-3Hd">By default, a layout is a 4 x 4 grid of one color, but you can change the number of columns and rows, and the color of each brick.</text>
+                </block>
+                <block type="text">
+                    <text id="Ay4-CF-dk2">Next, experiment with layouts.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="Gb7-LT-pHR">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        <step type="experiment" name="layoutExperiments">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="layoutExperiments"/>
+                <block type="title" subtype="badge">
+                    <title id="FJB-2e-dW8">🧑‍🔬 Customizing Your Layout</title>
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                <block type="text">
+                    <text id="EcL-D8-SNS"><a href="playgrounds://currentdocument/currentpage/editor">Open <icon name="main"/> main</a>, and try out different layouts.</text>
+                </block>
+                <block type = "image" source="Page2Step3.pdf" height="0.5">
+                    <description id="5jV-It-cmE">Shows how to translate between layout code and bricks.</description>
+                </block>
+                <groupblock subtype="task" name="oneColor" disclosed="false">
+                    <title id="qiV-Gs-aTg">One Color</title>
+                    <image source="one-color" backgroundcolor="#AFE4F2"/>
+                    <block type="text">
+                        <text id="yuP-pp-333">First, add your new layout to the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                    </block>
+                    <block type="code">
+                        <key>let</key> oneColorLayout = Layout.color(<literal>#colorLiteral(red: 0.36470588235294116, green: 0.06666666666666667, blue: 0.9686274509803922, alpha: 1.0)</literal>)
+                    </block>
+                    <block type="text">
+                        <text id="yuP-pp-33p">After adding your new layout, pass it into the initializer for <cv>Level</cv>.</text>
+                    </block>
+                    <block type="text">
+                        <code><key>let</key> level = Level(using: oneColorLayout)
+                    level.run()</code>
+                    </block>
+                </groupblock>
+              
+                <groupblock subtype="task" name="colorArray" disclosed="false">
+                    <title id="8wp-hn-p7g">Color Array</title>
+                    <image source="color-array" backgroundcolor="#FFC5C3"/>
+                    <block type="code">
+                        <key>let</key> colors = [
+                            [<literal>#colorLiteral(red: 0.36470588235294116, green: 0.06666666666666667, blue: 0.9686274509803922, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.8549019607843137, green: 0.25098039215686274, blue: 0.47843137254901963, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9764705882352941, green: 0.8509803921568627, blue: 0.5490196078431373, alpha: 1.0)</literal>],
+                            [<literal>#colorLiteral(red: 0.9098039215686274, green: 0.47843137254901963, blue: 0.6431372549019608, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1)</literal>, <literal>#colorLiteral(red: 0.23921568627450981, green: 0.6745098039215687, blue: 0.9686274509803922, alpha: 1.0)</literal>],
+                            [<literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.7215686274509804, green: 0.8862745098039215, blue: 0.592156862745098, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.27450980392156865, green: 0.48627450980392156, blue: 0.1411764705882353, alpha: 1.0)</literal>]
+                        ]
+
+                        <key>let</key> colorArrayLayout = Layout(colors: colors)
+                    </block>
+                    <block type="text">
+                         <text id="yuP-pp-777">After adding your new layout, pass it into the initializer for <cv>Level</cv>.</text>
+                     </block>
+                     <block type="text">
+                         <code><key>let</key> level = Level(using: colorArrayLayout)
+                     level.run()</code>
+                     </block>
+                    <block type="text">
+                        <text id="S1r-pV-X5f"><b>Tip:</b> Make this array as big or small as you like. Use <cv>Color.clear</cv> to add spaces in your layout.</text>
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="randomColors" disclosed="false">
+                    <title id="1Yq-e7-3DU">Random Colors</title>
+                    <image source="random-colors" backgroundcolor="#FFE78F"/>
+                    <block type="code">
+                        <key>let</key> randomColors = Layout.random(colors: [<literal>#colorLiteral(red: 0.7215686274509804, green: 0.8862745098039215, blue: 0.592156862745098, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1)</literal>, <literal>#colorLiteral(red: 0.23921568627450981, green: 0.6745098039215687, blue: 0.9686274509803922, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal>])
+                    </block>
+                     <block type="text">
+                        <text id="yuP-pp-444">With rows and columns specified:</text>
+                    </block>
+                       <block type="code">
+                        <key>let</key> randomColorsRowsColumns = Layout.random(colors: [<literal>#colorLiteral(red: 0.9764705882352941, green: 0.8509803921568627, blue: 0.5490196078431373, alpha: 1.0)</literal>, Color.clear, <literal>#colorLiteral(red: 0.36470588235294116, green: 0.06666666666666667, blue: 0.9686274509803922, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.8549019607843137, green: 0.25098039215686274, blue: 0.47843137254901963, alpha: 1.0)</literal>, <literal>#colorLiteral(red: 0.27450980392156865, green: 0.48627450980392156, blue: 0.1411764705882353, alpha: 1.0)</literal>], rows: <num>3</num>, columns: <num>3</num>)
+                    </block>
+                    <block type="text">
+                        <text id="yuP-pp-888">After adding your new layout, pass it into the initializer for <cv>Level</cv>.</text>
+                    </block>
+                    <block type="text">
+                        <code><key>let</key> level = Level(using: randomColors)
+                    level.run()</code>
+                    </block>
+                    <block type="text">
+                        <text id="Jtn-B6-hMu"><b>Tip:</b> Change the number of rows and columns to make your layout bigger or smaller.</text>
+                    </block>
+                </groupblock>
+            </blocks>
+        </step>
+        
+        
+        
+        <message name="layoutExperiments-hint" sender="hopper">
+               <blocks>
+                   <block type="text">
+                       <text id="8kH-AI-7XM">This one is tricky, there are three parts. First, add your new layout <i>to the top</i> of the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                   </block>
+                   <block type="code"><key>let</key> oneColorLayout = Layout.color(<literal>#colorLiteral(red: 0.36470588235294116, green: 0.06666666666666667, blue: 0.9686274509803922, alpha: 1.0)</literal>)</block>
+                   <block type="text">
+                       <text id="79c-jW-v1c">Second, delete or comment out this code: <cv>let level = Level(using: customLayout)</cv></text>
+                   </block>
+                   <block type="text">
+                       <text id="838383838">Third, add this code <i>above</i> <cv>level.run()</cv>:</text>
+                   </block>
+                   <block type="code"><key>let</key> level = Level(using: oneColorLayout)</block>
+               </blocks>
+           </message>
+           <message name="layoutExperiments-success" sender="byte">
+               <blocks>
+                   <block type="text">
+                       <text id="Xmu-C4-n1M"><b>You did it!</b></text>
+                   </block>
+                 <block type="text">
+                     <text id="ik3-pi-Fnt">Keep playing with brick layouts, or continue to learn how bricks work.</text>
+                 </block>
+                 <block type="buttons" alignment="trailing">
+                     <button href="@nextStep" symbol="arrow.right.circle.fill">
+                         <text id="XKn-eg-Dgi">Next</text>
+                     </button>
+                 </block>
+               </blocks>
+           </message>
+        
+        
+        
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="Qqq-Yt-ffW">How Bricks Work</title>
+                </block>
+                <block type="text">
+                    <text id="5wh-ag-9wN">By default, all bricks behave exactly the same. However, you can use the color of the brick to give it special abilities.</text>
+                </block>
+                <block type = "image" source="Page2Step4" height="0.5">
+                    <description id="WAb-e3-qc4">Brick exploding and releasing three balls into the game.</description>
+                </block>
+                <block type="text">
+                    <text id="HR4-Rm-PV2">The <cv>createBrick</cv> function takes a color from your layout and <a href="glossary://return%20type">returns</a> a brick.</text>
+                </block>
+                 <block type="text">
+                    <code><key>public func</key> createBrick(color: <type>Color</type>) -> <type>Brick</type></code>
+                </block>
+                <block type="text">
+                    <text id="VBg-4X-fVK">In this function, you can modify a brick’s properties based on its color. This allows you to customize how each color brick behaves.</text>
+                </block>
+                <block type="text">
+                   <text id="KdV-E8-Iu7">Continue︎ to make the customizations.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="rTi-1I-v4S">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        
+         <step type="experiment" name="brickExperiments">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="brickExperiments"/>
+                <block type="title" subtype="badge">
+                    <title id="Q1q-Yt-ffW">🧑‍🔬 Customizing Bricks</title>
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                <block type="text">
+                    <text id="zdk-ED-nBR">Add your code below this comment in the <cv>createBrick</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>:
+                    <cmt id="MzW-Vr-djx">// Brick customizations.</cmt></text>
+                </block>
+                <block type="text">
+                    <text id="RFe-ay-WdT"><b>Tip:</b> Make sure the colors match those in your layout.</text>
+                </block>
+                <groupblock subtype="task" name="brickStrength" disclosed="false">
+                    <title id="zF2-6d-Fee">Change the Strength of the Brick</title>
+                    <image source="change-the-strength-of-the-brick" backgroundcolor="#AFE4F2"/>
+                    <block type="code">
+                    <key>if</key> color == <literal>#colorLiteral(red: 0.36470588235294116, green: 0.06666666666666667, blue: 0.9686274509803922, alpha: 1.0)</literal> {
+                        brick.strength = <num>2</num>
+                    }
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="brickImage" disclosed="false">
+                    <title id="zF2-ee-Fee">Change the Brick Image</title>
+                    <image source="change-the-brick-image" backgroundcolor="#FFE78F"/>
+                    <block type="code">
+                    <key>if</key> color == <literal>#colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1)</literal> {
+                        brick.image = <literal>#imageLiteral(resourceName: "Brick_2@2x.png")</literal>
+                        brick.setTintColor(color, blend: <num>1</num>)
+                     }
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="addABall" disclosed="false">
+                    <title id="NFZ-N1-RbW">Add a Ball</title>
+                    <image source="add-a-ball" backgroundcolor="#FFC5C3"/>
+                    <block type="code">
+                        <key>if</key> color == <literal>#colorLiteral(red: 0.23921568627450981, green: 0.6745098039215687, blue: 0.9686274509803922, alpha: 1.0)</literal> {
+        brick.addOnExplodeHandler {
+            <key>let</key> ball = <key>self</key>.addBall(at: brick.position)
+            ball.setVelocity(x: <num>-300</num>, y: <num>750</num>)
+        }
+    }
+                    </block>
+                </groupblock>
+                 <groupblock subtype="task" name="paddleSizes" disclosed="false">
+                    <title id="n4Q-Rp-gJD">Make the Paddle Wider or Narrower</title>
+                    <image source="make-the-paddle-wider-and-narrower" backgroundcolor="#F9C9F3"/>
+                    <block type="code">
+                    <key>if</key> color == <literal>#colorLiteral(red: 0.9098039215686274, green: 0.47843137254901963, blue: 0.6431372549019608, alpha: 1.0)</literal> {
+                        brick.addOnExplodeHandler {
+                            <key>self</key>.paddle.xScale += <num>0.5</num>
+                        }
+                    }</block>
+                </groupblock>
+                <groupblock subtype="task" name="knockLoose" disclosed="false">
+                    <title id="mBs-wA-e87">Knock a Brick Loose</title>
+                    <image source="knock-a-brick-loose" backgroundcolor="#AFE4F2"/>
+                     <block type="code">
+                    <key>if</key> color == <literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal> {
+                        brick.strength = <num>3</num>
+                        brick.isDynamic = <key>true</key>
+                        brick.allowsRotation = <key>true</key>
+                    }
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="passThrough" disclosed="false">
+                    <title id="85p-Ji-cmM">The Ball Passes Through a Brick</title>
+                    <image source="the-ball-passes-through-a-brick" backgroundcolor="#FFE78F"/>
+                    <block type="code">
+                    <key>if</key> color == <literal>#colorLiteral(red: 0.7215686274509804, green: 0.8862745098039215, blue: 0.592156862745098, alpha: 1.0)</literal> {
+                        brick.ballPassesThrough = <key>true</key>
+                    }
+                    </block>
+                </groupblock>
+                
+                <groupblock subtype="task" name="turbo" disclosed="false">
+                    <title id="2r6-iW-7Dh">Turbo</title>
+                    <image source="animations" backgroundcolor="#FAC9F3"/>
+                    <block type="code">
+<key>if</key> color == <literal>#colorLiteral(red: 0.8549019607843137, green: 0.25098039215686274, blue: 0.47843137254901963, alpha: 1.0)</literal> {
+    brick.addOnExplodeHandler {
+        <key>for</key> ball <key>in</key> self.balls {
+             ball.setVelocity(x: <num>1000</num>, y: <num>1000</num>)
+             ball.spark(duration: <num>3</num>, color: Color.magenta)
+             ball.passThroughBrick(duration: <num>3</num>)
+        }
+    }
+}
+                    </block>
+                </groupblock>
+                  <groupblock subtype="task" name="animations" disclosed="false">
+                    <title id="TNW-VR-bQ9">Animations</title>
+                    <image source="turbo" backgroundcolor="#FDE2CB"/>
+                    <block type="code">
+<key>if</key> color == <literal>#colorLiteral(red: 0.27450980392156865, green: 0.48627450980392156, blue: 0.1411764705882353, alpha: 1.0)</literal> {
+    brick.addOnExplodeHandler {
+        <key>for</key> ball <key>in</key> <key>self</key>.balls {
+            ball.sparkle(duration: <num>2</num>, color: <literal>#colorLiteral(red: 0.4666666666666667, green: 0.7647058823529411, blue: 0.26666666666666666, alpha: 1.0)</literal>)
+        }
+    }
+}
+                    </block>
+                   
+                    <block type="code">
+                    <key>if</key> color == <literal>#colorLiteral(red: 0.2196078431372549, green: 0.00784313725490196, blue: 0.8549019607843137, alpha: 1.0)</literal> {
+                        brick.addOnExplodeHandler {
+                            <key>for</key> ball <key>in</key> <key>self</key>.balls {
+                                    ball.spark(duration: <num>2</num>, color: <literal>#colorLiteral(red: 0.5568627450980392, green: 0.35294117647058826, blue: 0.9686274509803922, alpha: 1.0)</literal>)
+                                }
+                        }
+                    }</block>
+                    
+                    <block type="code">
+                    <key>if</key> color == <literal>#colorLiteral(red: 0.9372549019607843, green: 0.34901960784313724, blue: 0.19215686274509805, alpha: 1.0)</literal> {
+                        brick.addOnExplodeHandler {
+                            <key>self</key>.paddle.glow()
+                        }
+                    }</block>
+                </groupblock>
+                          
+               
+            </blocks>
+        </step>
+        
+        <message name="brickExperiments-hint" sender="hopper">
+               <blocks>
+                   <block type="text">
+                       <text id="XMb-JN-sJt">You should always do at least one experiment. Try Turbo, it’s my favorite!</text>
+                      </block>
+                   <block type="code">
+<key>if</key> color == <literal>#colorLiteral(red: 0.8549019607843137, green: 0.25098039215686274, blue: 0.47843137254901963, alpha: 1.0)</literal> {
+   brick.addOnExplodeHandler {
+       <key>for</key> ball <key>in</key> self.balls {
+            ball.setVelocity(x: <num>1000</num>, y: <num>1000</num>)
+            ball.spark(duration: <num>3</num>, color: Color.magenta)
+            ball.passThroughBrick(duration: <num>3</num>)
+       }
+   }
+}
+                  </block>
+               </blocks>
+           </message>
+           <message name="brickExperiments-success" sender="byte">
+               <blocks>
+                   <block type="text">
+                      <text id="IV3-a4-Qe9"><b>WOW!</b> You are crushing it!</text>
+                   </block>
+                 <block type="text">
+                   <text id="KdV-E8-uu7">Keep playing around and making this game your own, or check your understanding of how all of this works.</text>
+                </block>
+                 <block type="buttons" alignment="trailing">
+                     <button href="@nextStep" symbol="arrow.right.circle.fill">
+                         <text id="Iq5-tr-UT1">Next</text>
+                     </button>
+                 </block>
+               </blocks>
+           </message>
+        
+        
+        
+        <step type="check">
+            <blocks>
+                <assessment type="response" badge="true"/>
+                <block type="title" subtype="badge">
+                    <title id="HT9-V6-uWS">Check Yourself</title>
+                </block>
+                <block type="response" subtype="single-choice" name="level" confirm="true">
+                    <prompt id="3D4-ri-A7jb22a">How do <cv>Layout</cv> and <cv>createBrick</cv> work together?</prompt>
+                    <option>
+                        <text id="22t-uT-xKU">They don’t work together. Each function does something different.</text>
+                        <feedback id="Um2-p4-aHp">They do work together, keep trying.</feedback>
+                    </option>
+                    <option>
+                        <text id="kdY-KN-fKd"><cv>Layout</cv> uses the colors for the bricks, and then lays out the bricks in an array.</text>
+                        <feedback id="pAa-Ug-CVp">That’s how <cv>Layout</cv> works, but what about <cv>createBrick</cv>?</feedback>
+                    </option>
+                    <option type="correct">
+                           <text id="Vg9-b7-1rE"><cv>createBrick</cv> takes a color from <cv>Layout</cv> and sets the brick’s properties based upon that color.</text>
+                           <feedback id="ZPn-ng-wrr">Correct! These two functions allow you to customize bricks based on their color.
+                           
+                           <a href="@next">Next</a>, make something happen when you win the game.</feedback>
+                    </option>
+             </block>
+         
+         </blocks>
+        </step>
+        
+    </steps>
+</trail>

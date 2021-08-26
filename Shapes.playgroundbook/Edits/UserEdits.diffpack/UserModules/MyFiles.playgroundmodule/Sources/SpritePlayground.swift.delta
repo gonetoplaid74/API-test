@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(spritePlayground1)*/</string>
+			<key>OriginalRange</key>
+			<string>{4, 41}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{13, 0}</string>
+			<key>OriginalContent</key>
+			<string> to play with shape</string>
+			<key>OriginalRange</key>
+			<string>{54, 19}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{14, 0}</string>
+			<key>OriginalContent</key>
+			<string>spri</string>
+			<key>OriginalRange</key>
+			<string>{74, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>o</string>
+			<key>ModifiedRange</key>
+			<string>{15, 1}</string>
+			<key>OriginalContent</key>
+			<string>es in a</string>
+			<key>OriginalRange</key>
+			<string>{79, 7}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{18, 0}</string>
+			<key>OriginalContent</key>
+			<string>hysics world./*#-end-</string>
+			<key>OriginalRange</key>
+			<string>{88, 21}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ay with shape sprites in a physi</string>
+			<key>ModifiedRange</key>
+			<string>{19, 32}</string>
+			<key>OriginalContent</key>
+			<string>o</string>
+			<key>OriginalRange</key>
+			<string>{110, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>s w</string>
+			<key>ModifiedRange</key>
+			<string>{52, 3}</string>
+			<key>OriginalContent</key>
+			<string>alizable-z</string>
+			<key>OriginalRange</key>
+			<string>{112, 10}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>rld.</string>
+			<key>ModifiedRange</key>
+			<string>{56, 4}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{123, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{124, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(spriteSetup)*/</string>
+			<key>OriginalRange</key>
+			<string>{191, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{154, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{256, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{327, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(spritePlayground2)*/</string>
+			<key>OriginalRange</key>
+			<string>{455, 41}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{342, 0}</string>
+			<key>OriginalContent</key>
+			<string>dbox./*#-en</string>
+			<key>OriginalRange</key>
+			<string>{511, 11}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{343, 0}</string>
+			<key>OriginalContent</key>
+			<string>-localiza</string>
+			<key>OriginalRange</key>
+			<string>{523, 9}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{344, 0}</string>
+			<key>OriginalContent</key>
+			<string>le-z</string>
+			<key>OriginalRange</key>
+			<string>{533, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>x.</string>
+			<key>ModifiedRange</key>
+			<string>{345, 2}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{538, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1787, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(spritePlayground4)*/</string>
+			<key>OriginalRange</key>
+			<string>{1982, 41}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1858, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{2094, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2597, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(spritePlayground5)*/</string>
+			<key>OriginalRange</key>
+			<string>{2859, 41}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2627, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{2930, 26}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/SpritePlayground.swift</string>
+</dict>
+</plist>

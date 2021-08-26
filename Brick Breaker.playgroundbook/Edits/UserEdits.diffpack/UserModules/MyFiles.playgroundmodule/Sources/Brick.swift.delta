@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{23, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule4)*/</string>
+			<key>OriginalRange</key>
+			<string>{23, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{57, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{92, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{100, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule5)*/</string>
+			<key>OriginalRange</key>
+			<string>{161, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{158, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{254, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{200, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule6)*/</string>
+			<key>OriginalRange</key>
+			<string>{322, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{244, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{401, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{668, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodulecomments1)*/</string>
+			<key>OriginalRange</key>
+			<string>{851, 43}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{720, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{946, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1055, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodulecomments2)*/</string>
+			<key>OriginalRange</key>
+			<string>{1307, 43}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1094, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1389, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1496, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule6b)*/</string>
+			<key>OriginalRange</key>
+			<string>{1817, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1511, 0}</string>
+			<key>OriginalContent</key>
+			<string>ick./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{1868, 17}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ck.</string>
+			<key>ModifiedRange</key>
+			<string>{1512, 3}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1886, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1652, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule7)*/</string>
+			<key>OriginalRange</key>
+			<string>{2035, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1697, 0}</string>
+			<key>OriginalContent</key>
+			<string>ick./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{2115, 17}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ck.</string>
+			<key>ModifiedRange</key>
+			<string>{1698, 3}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{2133, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2104, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule8)*/</string>
+			<key>OriginalRange</key>
+			<string>{2548, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2159, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{2638, 26}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/Brick.swift</string>
+</dict>
+</plist>

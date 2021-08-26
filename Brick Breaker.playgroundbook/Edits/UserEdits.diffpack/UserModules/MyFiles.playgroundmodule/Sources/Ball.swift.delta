@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{23, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule1)*/</string>
+			<key>OriginalRange</key>
+			<string>{23, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{112, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{147, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{154, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule2)*/</string>
+			<key>OriginalRange</key>
+			<string>{215, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{197, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{293, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{648, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule3)*/</string>
+			<key>OriginalRange</key>
+			<string>{770, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{680, 0}</string>
+			<key>OriginalContent</key>
+			<string>icks./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{837, 18}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>cks.</string>
+			<key>ModifiedRange</key>
+			<string>{681, 4}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{856, 12}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/Ball.swift</string>
+</dict>
+</plist>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{231, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sceneExtension1)*/</string>
+			<key>OriginalRange</key>
+			<string>{231, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{235, 0}</string>
+			<key>OriginalContent</key>
+			<string>a knob./*#-end-localiz</string>
+			<key>OriginalRange</key>
+			<string>{274, 22}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> k</string>
+			<key>ModifiedRange</key>
+			<string>{236, 2}</string>
+			<key>OriginalContent</key>
+			<string>ble-zo</string>
+			<key>OriginalRange</key>
+			<string>{297, 6}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ob.</string>
+			<key>ModifiedRange</key>
+			<string>{239, 3}</string>
+			<key>OriginalContent</key>
+			<string>e*/</string>
+			<key>OriginalRange</key>
+			<string>{304, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{684, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sceneExtension2)*/</string>
+			<key>OriginalRange</key>
+			<string>{749, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{732, 0}</string>
+			<key>OriginalContent</key>
+			<string>b./*#-end-localiza</string>
+			<key>OriginalRange</key>
+			<string>{836, 18}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>.</string>
+			<key>ModifiedRange</key>
+			<string>{733, 1}</string>
+			<key>OriginalContent</key>
+			<string>le-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{855, 9}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1494, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sceneExtension3)*/</string>
+			<key>OriginalRange</key>
+			<string>{1624, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1546, 0}</string>
+			<key>OriginalContent</key>
+			<string>b./*#-end-localiza</string>
+			<key>OriginalRange</key>
+			<string>{1715, 18}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>.</string>
+			<key>ModifiedRange</key>
+			<string>{1547, 1}</string>
+			<key>OriginalContent</key>
+			<string>le-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1734, 9}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1937, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(sceneExtension4)*/</string>
+			<key>OriginalRange</key>
+			<string>{2132, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1992, 0}</string>
+			<key>OriginalContent</key>
+			<string>zontally./*#-end-localizable-</string>
+			<key>OriginalRange</key>
+			<string>{2226, 29}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>tally.</string>
+			<key>ModifiedRange</key>
+			<string>{1995, 6}</string>
+			<key>OriginalContent</key>
+			<string>e*/</string>
+			<key>OriginalRange</key>
+			<string>{2258, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2706, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(graphicBounce)*/</string>
+			<key>OriginalRange</key>
+			<string>{2966, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2741, 0}</string>
+			<key>OriginalContent</key>
+			<string>lating a bouncing effect./*#-end-localizab</string>
+			<key>OriginalRange</key>
+			<string>{3038, 42}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ating a b</string>
+			<key>ModifiedRange</key>
+			<string>{2742, 9}</string>
+			<key>OriginalContent</key>
+			<string>e-z</string>
+			<key>OriginalRange</key>
+			<string>{3081, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>uncing effect.</string>
+			<key>ModifiedRange</key>
+			<string>{2752, 14}</string>
+			<key>OriginalContent</key>
+			<string>ne*/</string>
+			<key>OriginalRange</key>
+			<string>{3085, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3382, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(graphicAddAudio)*/</string>
+			<key>OriginalRange</key>
+			<string>{3705, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3407, 0}</string>
+			<key>OriginalContent</key>
+			<string>ic./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{3769, 16}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>c.</string>
+			<key>ModifiedRange</key>
+			<string>{3408, 2}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{3786, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3729, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(spritePlayCollisionSound)*/</string>
+			<key>OriginalRange</key>
+			<string>{4117, 48}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3753, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{4189, 26}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/Scene.swift</string>
+</dict>
+</plist>

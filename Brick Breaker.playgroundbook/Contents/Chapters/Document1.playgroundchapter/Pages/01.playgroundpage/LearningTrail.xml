@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0101">
+    <steps>
+        
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="tWV-d7-GJW">Welcome to Brick Breaker!</title>
+                    <text id="xxr-nC-jsg">In this playground, you’ll build Brick Breaker.</text>
+                </block>
+                <block type = "image" source="Page1Step1" height="0.75">
+                    <description id="V1e-WF-H8z">The logo for the Brick Breaker project.</description>
+                </block>
+                <block type="text">
+                    <text id="7Zh-2i-rBv">Brick Breaker is a game where you use a paddle to hit balls and break bricks.</text>
+                </block>
+                <block type="text">
+                    <text id="3Cx-yX-41c">Your game can be as fun as <i>you</i> make it. Ready to start?</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="Ig8-Uk-hi7">Start Building!</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        
+       <step type="context">
+           <blocks>
+               <block type="title">
+                   <title id="pht-Ub-FEr">The Level Type</title>
+                   <text id="IBd-sX-i5j">To make your game, you’ll use a <a href="glossary://type">type</a> called <cv>Level</cv> to combine all of your game elements: <b>balls</b>, <b>bricks</b>, <b>paddles</b>, and <b>game rules</b>.</text>
+               </block>
+                <groupblock disclosed="false">
+                    <image character="expert"/>
+                    <title id="JvM-m6-TIT">What is a Type?</title>
+                   <block type="text">
+                       <text id="7mx-iM-gXg">In Swift coding, you’ll use a building block called a <a href="glossary://type">type</a> to create more complex programs. Types include classes, structures, and enumerations.
+                           
+                           Inside of each type in this Playground, you’ll find setup code, called an <a href="glossary://initializer">initializer</a>. Types can also have their own special <a href="glossary://property">properties</a> (data) and <a href="glossary://method">methods</a> (abilities).
+                           
+                           Using a type, you can write the setup code for an <a href="glossary://instance">instance</a> once, and use it over and over again. You can also customize each instance in <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> by setting its properties at runtime.</text>
+                   </block>
+               </groupblock>
+                <block type = "image" source="Page1Step2">
+                    <description id="bmN-3w-xVy">Diagram showing a level that contains a ball, bricks, a paddle, and game rules.</description>
+                </block>
+               <block type="carrot" subtype="find"/>
+               <block type="text">
+                   <text id="khS-C3-YhB">Look through the <cv>Level</cv> class. Read the <a href="glossary://code%20comment">comments</a> and try to predict what each function might do.</text>
+               </block>
+               <groupblock disclosed="false">
+                    <image character="expert"/>
+                     <title id="IfL-xT-rvY">Learn How You’ll Build the Game</title>
+                 <block type="text">
+                     <text id="42C-eL-E84">Building a game is a big task. To be successful at any large project, you should break it up into smaller pieces, a process called <a href="glossary://decomposition">decomposition</a>.</text>
+                 </block>
+                 <block type="text">
+                     <text id="pth-8F-m5h">For example, when you decompose the game elements into different <a href="glossary://type">types</a>, it’s easier to combine them into a fully functional game.</text>
+                 </block>
+             </groupblock>
+             <block type="text">
+                 <text id="jxn-VV-4sP">Next, add your first game element: a paddle!</text>
+             </block>
+             <block type="buttons" alignment="trailing">
+                 <button href="@nextStep" symbol="arrow.right.circle.fill">
+                     <text id="1fR-Db-EPB">Next</text>
+                 </button>
+             </block>
+           </blocks>
+       </step>
+       <step type="code" name="addPaddle">
+           <blocks>
+               <assessment type="programmatic" name="addPaddle"/>
+               <block type="title">
+                   <title id="pgf-fX-tL1">Add a Paddle</title>
+                   <image source="1-3_AddAPaddle">
+                       <description id="iRH-qe-FGW">A rectangular wooden paddle.</description>
+                   </image>
+                   <text id="6WN-xz-yJq">Inside <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a> you’ll find a <cv>run</cv> function. <a href="glossary://call">Call</a> <cv>addPaddle</cv> to add an instance of the <cv>Paddle</cv> type to the scene.</text>
+               </block>
+               <block type="carrot" subtype="code"/>
+               <block type="text">
+                   <text id="z1k-ZG-mED">Add your code below the <a href="glossary://code%20comment">comment</a>:
+                    <cmt id="LJc-VI-mj7">// Add a paddle.</cmt></text>
+               </block>
+               <block type="code">addPaddle()</block>
+               <block type="carrot" subtype="play"/>
+               <block type="text">
+                   <text id="ang-ID-je9">Run your code. Touch and drag to move your paddle left and right.</text>
+               </block>
+               <groupblock disclosed="false">
+                   <image character="expert"/>
+                     <title id="1yW-T8-Nb2">Learn More About the Paddle Type</title>
+                 <block type="text">
+                     <text id="P2b-Au-AQh">You control the paddle by moving it horizontally with your touch.</text>
+                 </block>
+                 <block type="text">
+                     <text id="UgF-ft-aPT">Try reading through the code in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Paddle.swift"><icon name="module"/> Paddle</a>, to see what else you can learn about the paddle type.</text>
+                 </block>
+             </groupblock>
+           </blocks>
+       </step>
+       
+       
+       <message name="addPaddle-hint" sender="hopper">
+           <blocks>
+               <block type="text">
+                   <text id="yCY-Vy-cUz">Locate the code comment <cmt id="NRz-qP-w2E">// Add a paddle</cmt> in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+               </block>
+               <block type="text">
+                   <text id="D7s-3f-G6m">Then add the line below and run your code.</text>
+               </block>
+              <block type="code">addPaddle()</block>
+           </blocks>
+       </message>
+       <message name="addPaddle-success" sender="byte">
+           <blocks>
+               <block type="text">
+                   <text id="NFn-8U-ab4"><b>Success!</b></text>
+               </block>
+               <block type="text">
+                   <text id="RRw-tm-adF">Your first game element.</text>
+               </block>
+               <block type="text">
+                   <text id="Pa6-Hm-hck">Next, add a ball to the scene.</text>
+               </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@nextStep" symbol="arrow.right.circle.fill">
+                       <text id="RYB-Tm-5Wr">Next</text>
+                   </button>
+               </block>
+           </blocks>
+       </message>
+       
+       
+       
+       <step type="code" name="addBall">
+           <blocks>
+               <assessment type="programmatic" name="addBall"/>
+               <block type="title">
+                   <title id="EcL-H7-SiD">Add a Ball</title>
+                   <text id="nGj-iw-UwS">Now add an instance of the <cv>Ball</cv> <a href="glossary://type">type</a> to bounce off the paddle.</text>
+                   <image source="1-4_AddABall">
+                       <description id="Upk-T6-Xex">A mutlicolored beach ball.</description>
+                   </image>
+               </block>
+               <block type="carrot" subtype="code"/>
+               <block type="text">
+                   <text id="sju-bG-Rjm">Create a <a href="glossary://constant">constant</a> named <cv>ball</cv> using the <cv>addBall</cv> <a href="glossary://function">function</a>. Then set the <a href="glossary://velocity">velocity</a> of the ball to make it move around.</text>
+               </block>
+               <block type="text">
+                   <text id="I2s-TW-9aX">Add your code below this comment:
+                       <cmt id="5cK-Uc-4W2">// Add a ball and give it a velocity.</cmt></text>
+               </block>
+               <block type="code">
+                   <key>let</key> ball = addBall()
+                   ball.setVelocity(x: <num>500</num>, y: <num>500</num>)
+               </block>
+               <block type="carrot" subtype="play"/>
+               <block type="text">
+                   <text id="WGh-Ts-t4X">Run your code and play with your ball and paddle.</text>
+               </block>
+               <block type="text">
+                   <text id="cXE-8y-B29">Try changing the ball <a href="glossary://velocity">velocity</a> by modifying the <i>x</i> and <i>y</i> values. Use low and high values, like <cv>50</cv> and <cv>1000</cv>.</text>
+               </block>
+               <groupblock disclosed="false">
+                   <image character="expert"/>
+                     <title id="jp6-pc-WMa">Learn More About the Ball Type</title>
+                 <block type="text">
+                     <text id="HzV-wm-s2R">The <cv>Ball</cv> is set up to move freely and bounce around the screen when hit by a paddle or off a wall. You can set the ball’s velocity to make it move faster or slower.</text>
+                 </block>
+                 <block type="text">
+                     <text id="51N-b6-LX9">Try reading through the code in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Ball.swift"><icon name="module"/> Ball</a>, to see what else you can learn about the ball type.</text>
+                 </block>
+             </groupblock>
+           </blocks>
+       </step>
+       
+       
+       <message name="addBall-hint" sender="hopper">
+           <blocks>
+               <block type="text">
+                   <text id="qTS-gJ-ikq">Locate the code comment <cmt id="t3f-cB-11C">// Add a ball and give it a velocity.</cmt> in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+               </block>
+               <block type="text">
+                   <text id="ZwM-fW-i2G">Then add the line below and run your code.</text>
+               </block>
+              <block type="code">
+                  <key>let</key> ball = addBall()
+                  ball.setVelocity(x: <num>500</num>, y: <num>500</num>)
+              </block>
+           </blocks>
+       </message>
+       <message name="addBall-success" sender="byte">
+           <blocks>
+             <block type="text">
+                   <text id="JUX-nd-tNU">🏓<b>A Ball and a paddle!</b>🏏</text>
+               </block>
+               <block type="text">
+                    <text id="6Iz-P3-H8i">Next, customize your ball and paddle.</text>
+                </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@nextStep" symbol="arrow.right.circle.fill">
+                       <text id="1yV-DD-Q7m">Next</text>
+                   </button>
+               </block>
+           </blocks>
+       </message>
+       
+       
+       
+       
+       <step type="experiment" name="ballPaddleExperiments">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="ballPaddleExperiments"/>
+                <block type="title" subtype="badge">
+                    <title id="Fea-xj-GcA">🧑‍🔬 Customize the Ball and Paddle</title>
+                    <text id="7t4-yD-ude">Now that you have a basic ball and paddle, you can customize them!</text>
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                <groupblock subtype="task" name="ballAndPaddleImages" disclosed="false">
+                    <title id="gCk-5p-Zaw">Change the Ball and Paddle Images</title>
+                    <image source="change-the-ball-and-paddle-images" backgroundcolor="#AFE4F2"/>
+                    <block type="text">
+                        <text id="HCW-6A-iBf">Change the images for the ball and paddle by editing the image <a href="glossary://literal">literals</a> at the top of <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>.</text>
+                    </block>
+                   <block type="text">
+                       <text id="VI5-j2-wFD">Look for the code at the top of the file that looks like this:</text>
+                   </block>
+                  <block type="text">
+                    <code><key>public var</key> ballImage: <type>Image</type> = <literal>#imageLiteral(resourceName: "gem4@2x")</literal>
+                    <key>public var</key> paddleImage: <type>Image</type> = <literal>#imageLiteral(resourceName: "gem4@2x")</literal></code>
+                </block>
+                  <block type="text">
+                      <text id="EGL-6K-bZA">Use the image literals at the end of the line to select a new image.</text>
+                  </block>
+               </groupblock>
+               <groupblock subtype="task" name="ballAnimation" disclosed="false">
+                    <title id="App-Ax-kNT">Add Ball Animations</title>
+                    <image source="add-ball-animation" backgroundcolor="#FFE78F"/>
+                   <block type="text">
+                    <text id="jMI-ee-j42">Try adding this code to your <cv>run</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>. Make sure you place it under where you define <cv>ball</cv>.</text>
+                </block>
+                    <block type="code">
+                        ball.spark(duration: <num>50</num>, color: <literal>#colorLiteral(red: 0.807843137254902, green: 0.027450980392156862, blue: 0.3333333333333333, alpha: 1.0)</literal>)
+                    </block>
+                    <block type="code">
+                       ball.tracer(duration: <num>-1</num>, color: <literal>#colorLiteral(red: 0.9686274509803922, green: 0.7803921568627451, blue: 0.34509803921568627, alpha: 1.0)</literal>)
+                   </block>
+                    <block type="text">
+                        <text id="llL-6K-bZA"><b>Tip:</b> Use <cv>-1</cv> in the <cv>duration</cv> <a href="glossary://parameter">parameter</a> to have the spark or tracer run indefinitely.</text>
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="customizeBall" disclosed="false">
+                    <title id="W52-Uv-81p">Customize the Ball</title>
+                    <image source="customize-the-ball" backgroundcolor="#F9C9F3"/>
+                   <block type="text">
+                    <text id="Yy3-ua-tHT">Change <cv>allowsRotation</cv> or <cv>friction</cv> of the ball type.</text>
+                </block>
+                    <block type="text">
+                        <text id="vyE-Sm-gKz">Open <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Ball.swift"><icon name="module"/> Ball</a> and look in the <a href="glossary://initializer">initializer</a> for where you set these values. Run your code after modifying each value.</text>
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="customizePaddle" disclosed="false">
+                    <title id="AXd-Ax-kNT">Customize the Paddle</title>
+                    <image source="customize-the-paddle" backgroundcolor="#FFD396"/>
+                   <block type="text">
+                    <text id="jMI-v5-j42">Change the <cv>xScale</cv> of the <cv>Paddle</cv> type to make your paddle wider or narrower.</text>
+                </block>
+                    <block type="text">
+                        <text id="i2e-QA-JaL">Open <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Paddle.swift"><icon name="module"/> Paddle</a> and look in the <a href="glossary://initializer">initializer</a> for where the <cv>xScale</cv> is set. Modify the value and run your code.</text>
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="countdown" disclosed="false">
+                       <title id="MAy-8J-yTh">Start the Ball with a Countdown</title>
+                       <image source="start-the-ball-with-a-countdown" backgroundcolor="#88DCDB"/>
+                       <block type="text">
+                           <text id="c2x-wg-ArH">Instead of setting its velocity, you can launch the ball using the <cv>startBall</cv> function. This gives a short, three-second countdown before the ball starts moving.</text>
+                       </block>
+                       <block type="text">
+                           <text id="1kh-5A-c7c">In <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>, <a href="glossary://comment%20out">comment out</a> the code that sets the ball’s velocity and use the <cv>startBall</cv> function to set the ball in motion.</text>
+                   </block>
+                   <groupblock disclosed="false">
+                       <image character="hopper"/>
+                        <title id="zqc-Nu-n2r">Need Help?</title>
+                        <block type="text">
+                        <text id="dWf-Nq-C1q">Edit the code inside the <cv>run</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Level.swift"><icon name="module"/> Level</a>. Your code should look like this:</text>
+                    </block>
+                        <block type="text"><code><cmt id="HD4-iF-sss">// Add a ball and give it a velocity.</cmt>
+                        <key>let</key> ball = addBall()
+                        <cmt id="16H-zz-2Px">// ball.setVelocity(x: 500, y: 500)</cmt>
+                        startBall(ball)</code>
+                        </block>
+                    </groupblock>
+                   <block type="text">
+                       <text id="VJn-7w-5VS">To learn more about the <cv>startBall</cv> function, head over to <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/LevelExtras.swift"><icon name="module"/> LevelExtras</a>. There you can change the sound the ball makes when it starts moving, as well as the ball’s velocity.</text>
+                   </block>
+               </groupblock>
+            </blocks>
+       </step>
+       
+       <message name="ballPaddleExperiments-hint" sender="hopper">
+           <blocks>
+               <block type="text">
+                   <text id="Vhg-KU-c6X">Try at least one experiment, a fun one is:</text>
+               </block>
+               <block type="code">
+                   ball.spark(duration: <num>50</num>, color: <literal>#colorLiteral(red: 0.807843137254902, green: 0.027450980392156862, blue: 0.3333333333333333, alpha: 1.0)</literal>)
+               </block>
+               <block type="text">
+                   <text id="fCE-Cv-U9H">Be sure to write your code below where you added the ball, in the <cv>run</cv> function.</text>
+               </block>
+           </blocks>
+       </message>
+       <message name="ballPaddleExperiments-success1" sender="byte">
+           <blocks>
+             <block type="text">
+                   <text id="Kzk-4i-AYt"><b>Great edits!</b></text>
+               </block>
+               <block type="text">
+                   <text id="HAU-uE-ZJU">Before moving on, try a few more. Each one adds something fun and different to your game.</text>
+               </block>
+           </blocks>
+       </message>
+       <message name="ballPaddleExperiments-success2" sender="byte">
+           <blocks>
+             <block type="text">
+                 <text id="5rx-B7-zym">✨🏓<b>That’s quite an improvement!</b>🏏✨</text>
+               </block>
+               <block type="text">
+                  <text id="2J6-iw-Bs3">Next, check your understanding of what you’re building.</text>
+               </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@nextStep" symbol="arrow.right.circle.fill">
+                       <text id="Yp3-Ck-Wvn">Next</text>
+                   </button>
+               </block>
+           </blocks>
+       </message>
+       
+       
+        <step type="check">
+            <blocks>
+                <assessment type="response" badge="true"/>
+                <block type="title" subtype="badge">
+                    <title id="3D4-ri-A7b">Check Yourself</title>
+                </block>
+                <block type="response" subtype="single-choice" name="level" confirm="true">
+                    <prompt id="3D4-ri-A7b232a">Why are you building in a class called Level?</prompt>
+                    <option>
+                        <text id="hiC-Eb-TBk">To make sure a picture is straight, you have to check it with a level.</text>
+                        <feedback id="jx9-zF-fLS">While this is true, the question is asking about the class, not the tool.🔨</feedback>
+                    </option>
+                    <option type="correct">
+                        <text id="Mr4-xD-awD">The <cv>Level</cv> class represents a level in a multilevel game of Brick Breaker.</text>
+                        <feedback id="8iwpppqoqoq">Correct! The <cv>Level</cv> class contains all of the basic elements for a level in the game. You can make as many levels as you like, creating a complete game.
+                        
+                        <a href="@next">Next</a>, add some blocks to your game.</feedback>
+                    </option>
+                    <option>
+                        <text id="6XZ-M3-kBM">A level is how you play brick breaker.</text>
+                        <feedback id="MZv-fL-F45">While you will be adding lots of game elements, the <cv>Level</cv> class represents one of the levels in the game of brick breaker.</feedback>
+                 </option>
+             </block>
+         </blocks>
+        </step>
+    </steps>
+</trail>

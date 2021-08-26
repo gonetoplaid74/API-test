@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0301">
+    <steps>
+        
+        <step type="context" name="challengeYourself">
+            <blocks>
+                <block type="title">
+                    <title id="JJJ-2S-9KA">A Sample Game</title>
+                </block>
+                <block type="text">
+                    <text id="ziK-O11-sdfdfsee"><a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/SampleLevel.swift"><icon name="module"/>  SampleLevel</a> is a completed version of the Brick Breaker game.</text>
+                </block>
+                <block type="text">
+                        <text id="dWw-dp-Im1">You can learn a lot from reading code written by someone else. Try reading through <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/SampleLevel.swift"><icon name="module"/> SampleLevel</a> with these tips:</text>
+                    </block>
+                    <block type="text">
+                        <text id="V4N-mB-MBg">1. Read the <a href="glossary://code%20comment">code comments</a> that explain the purpose of each function and variable.</text>
+                    </block>
+                    <block type="text">
+                        <text id="33M-rB-2Ez">2. Try predicting what happens if you change a value or line of code. Then, <b>run your code</b> to see if you were right! If something unexpected happens, try to figure out why.</text>
+                    </block>
+                
+                <block type="text">
+                    <text id="ziK-ieieiqnvnvn-ssdfs">Run your code to see how it works!</text>
+                </block>
+                
+            </blocks>
+        </step>
+        
+        <message name="challengeYourself" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="wxX-nd-BG8">Want to keep building your game? Here are some additional things you can try:</text>
+                </block>
+                <block type="text">
+                    <text id="VKD-AI-ibt">1. Add a score that you track across all of the levels, and display it after you win or lose.</text>
+                </block>
+                <block type="text">
+                    <text id="2B2-sn-ikV">2. Create a moving brick that you need to destroy before it reaches the foul line.</text>
+                </block>
+                <block type="text">
+                    <text id="aad-ve-wuj">3. Make an evasive brick that dodges the ball.</text>
+                </block>
+                <block type="text">
+                    <text id="vrI-rh-aFX">4. Add “Impossible Mode” to the game.</text>
+                </block>
+            </blocks>
+        </message>
+    </steps>
+</trail>

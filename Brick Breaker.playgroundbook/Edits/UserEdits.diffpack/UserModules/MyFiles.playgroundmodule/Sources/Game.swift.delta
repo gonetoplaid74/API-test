@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{23, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule9)*/</string>
+			<key>OriginalRange</key>
+			<string>{23, 35}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{112, 0}</string>
+			<key>OriginalContent</key>
+			<string>on./*#-end-localizable-z</string>
+			<key>OriginalRange</key>
+			<string>{147, 24}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>.</string>
+			<key>ModifiedRange</key>
+			<string>{114, 1}</string>
+			<key>OriginalContent</key>
+			<string>e*/</string>
+			<key>OriginalRange</key>
+			<string>{173, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{149, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule10)*/</string>
+			<key>OriginalRange</key>
+			<string>{210, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{168, 0}</string>
+			<key>OriginalContent</key>
+			<string>ame./*#-end-localiz</string>
+			<key>OriginalRange</key>
+			<string>{265, 19}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>me.</string>
+			<key>ModifiedRange</key>
+			<string>{169, 3}</string>
+			<key>OriginalContent</key>
+			<string>ble-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{285, 10}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{219, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule11)*/</string>
+			<key>OriginalRange</key>
+			<string>{342, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{232, 0}</string>
+			<key>OriginalContent</key>
+			<string>e and sets its levels./*#-</string>
+			<key>OriginalRange</key>
+			<string>{391, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> a</string>
+			<key>ModifiedRange</key>
+			<string>{233, 2}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{418, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> sets </string>
+			<key>ModifiedRange</key>
+			<string>{237, 6}</string>
+			<key>OriginalContent</key>
+			<string>-local</string>
+			<key>OriginalRange</key>
+			<string>{420, 6}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ts levels.</string>
+			<key>ModifiedRange</key>
+			<string>{244, 10}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{427, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{342, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule12)*/</string>
+			<key>OriginalRange</key>
+			<string>{527, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{364, 0}</string>
+			<key>OriginalContent</key>
+			<string> in the</string>
+			<key>OriginalRange</key>
+			<string>{585, 7}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{365, 0}</string>
+			<key>OriginalContent</key>
+			<string>game./*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{593, 18}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>n the g</string>
+			<key>ModifiedRange</key>
+			<string>{366, 7}</string>
+			<key>OriginalContent</key>
+			<string>z</string>
+			<key>OriginalRange</key>
+			<string>{612, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>me.</string>
+			<key>ModifiedRange</key>
+			<string>{374, 3}</string>
+			<key>OriginalContent</key>
+			<string>ble-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{614, 10}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{800, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule13)*/</string>
+			<key>OriginalRange</key>
+			<string>{1047, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{809, 0}</string>
+			<key>OriginalContent</key>
+			<string>ame./*#-end-localiz</string>
+			<key>OriginalRange</key>
+			<string>{1092, 19}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>me.</string>
+			<key>ModifiedRange</key>
+			<string>{810, 3}</string>
+			<key>OriginalContent</key>
+			<string>ble-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1112, 10}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{884, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule14)*/</string>
+			<key>OriginalRange</key>
+			<string>{1193, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{930, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1275, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1009, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(gameText01)*/</string>
+			<key>OriginalRange</key>
+			<string>{1380, 34}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1014, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1419, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1248, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(usermodule15)*/</string>
+			<key>OriginalRange</key>
+			<string>{1679, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1277, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1744, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1337, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(gameText02)*/</string>
+			<key>OriginalRange</key>
+			<string>{1830, 34}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1344, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1871, 26}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/Game.swift</string>
+</dict>
+</plist>

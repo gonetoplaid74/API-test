@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{22, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(thicknessPicker1)*/</string>
+			<key>OriginalRange</key>
+			<string>{22, 40}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{103, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{143, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{231, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(thicknessPicker2)*/</string>
+			<key>OriginalRange</key>
+			<string>{297, 40}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{289, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{395, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{362, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(thicknessPicker3)*/</string>
+			<key>OriginalRange</key>
+			<string>{494, 40}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{404, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{576, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{495, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(thicknessPicker4)*/</string>
+			<key>OriginalRange</key>
+			<string>{693, 40}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{539, 0}</string>
+			<key>OriginalContent</key>
+			<string>ckness picker./*#-end-lo</string>
+			<key>OriginalRange</key>
+			<string>{777, 24}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>k</string>
+			<key>ModifiedRange</key>
+			<string>{540, 1}</string>
+			<key>OriginalContent</key>
+			<string>alizable-zo</string>
+			<key>OriginalRange</key>
+			<string>{802, 11}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ss picker.</string>
+			<key>ModifiedRange</key>
+			<string>{543, 10}</string>
+			<key>OriginalContent</key>
+			<string>*/</string>
+			<key>OriginalRange</key>
+			<string>{815, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{714, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(thicknessPicker5)*/</string>
+			<key>OriginalRange</key>
+			<string>{978, 40}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{753, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{1057, 26}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/ThicknessPicker.swift</string>
+</dict>
+</plist>
